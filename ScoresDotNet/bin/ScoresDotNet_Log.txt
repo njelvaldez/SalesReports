@@ -1,0 +1,769 @@
+***********************************************************
+Text File processing completed at (2/3/2014 1:07:47 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/3/2014 1:16:42 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/3/2014 1:18:24 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/3/2014 1:27:10 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/3/2014 1:30:57 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/3/2014 1:32:37 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/3/2014 1:46:54 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/3/2014 1:48:57 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/3/2014 1:53:26 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/3/2014 1:55:26 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/3/2014 2:00:06 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/3/2014 2:01:39 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/3/2014 3:03:43 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/3/2014 3:05:43 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/4/2014 11:59:48 AM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/4/2014 12:03:32 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/4/2014 12:33:59 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/4/2014 12:41:12 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/4/2014 12:44:22 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/4/2014 1:12:23 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/4/2014 2:24:28 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/4/2014 2:28:11 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/4/2014 3:16:42 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/4/2014 3:28:13 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/4/2014 4:08:31 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/4/2014 4:22:28 PM)
+***********************************************************
+2/11/2014 12:35:21 PM
+Net Amount not Found at Row Number : 2
+2/11/2014 12:36:50 PM
+Net Amount not Found at Row Number : 2
+***********************************************************
+Text File processing completed at (2/11/2014 3:52:59 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/11/2014 4:28:07 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/11/2014 4:54:56 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/11/2014 5:01:15 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/11/2014 5:11:55 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/11/2014 5:19:38 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/11/2014 5:26:08 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/11/2014 5:35:19 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/11/2014 6:03:35 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/12/2014 2:49:52 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/12/2014 3:03:09 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/12/2014 4:45:55 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (2/12/2014 5:18:31 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (8/12/2014 11:37:09 AM)
+***********************************************************
+***********************************************************
+Text File processing completed at (8/27/2014 1:19:32 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (9/9/2014 1:54:33 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (9/18/2014 5:32:01 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (9/26/2014 11:41:49 AM)
+***********************************************************
+***********************************************************
+Text File processing completed at (9/26/2014 12:21:29 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (9/29/2014 10:03:59 AM)
+***********************************************************
+***********************************************************
+Text File processing completed at (9/29/2014 10:39:35 AM)
+***********************************************************
+***********************************************************
+Text File processing completed at (10/1/2014 5:04:59 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (10/2/2014 1:13:18 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (10/2/2014 1:45:37 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (10/7/2014 4:38:28 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (10/7/2014 4:50:03 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (10/8/2014 2:20:34 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (10/10/2014 12:40:04 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (10/10/2014 1:36:16 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (10/10/2014 1:40:17 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (10/10/2014 3:00:01 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (10/10/2014 3:03:29 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (10/13/2014 9:09:49 AM)
+***********************************************************
+***********************************************************
+Text File processing completed at (10/13/2014 1:17:26 PM)
+***********************************************************
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 1
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003510740
+IndSeq : 000200
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 2
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003510603
+IndSeq : 000090
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 3
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003509695
+IndSeq : 000080
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 4
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003510723
+IndSeq : 000120
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 5
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003509591
+IndSeq : 000080
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 6
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003509452
+IndSeq : 000120
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 7
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003510447
+IndSeq : 000150
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 8
+Customer : 0030005406
+Ref 1:           
+Ref 2: 0003487533
+IndSeq : 000010
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 9
+Customer : 0030005406
+Ref 1:           
+Ref 2: 0003487533
+IndSeq : 000011
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 10
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003510774
+IndSeq : 000060
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 11
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003510565
+IndSeq : 000050
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 12
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003510512
+IndSeq : 000120
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 13
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003510515
+IndSeq : 000080
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 14
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003510712
+IndSeq : 000110
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 15
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003509765
+IndSeq : 000060
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 16
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003509765
+IndSeq : 000080
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 17
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003509980
+IndSeq : 000110
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 18
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003513349
+IndSeq : 000360
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 19
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003513349
+IndSeq : 000370
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 20
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003509860
+IndSeq : 000080
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 21
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003509650
+IndSeq : 000110
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 22
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003510178
+IndSeq : 000140
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 23
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003510384
+IndSeq : 000120
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 24
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003509616
+IndSeq : 000150
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 25
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003510123
+IndSeq : 000150
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 26
+Customer : 0030005195
+Ref 1:           
+Ref 2: 0003465077
+IndSeq : 000010
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 27
+Customer : 0030005195
+Ref 1:           
+Ref 2: 0003465077
+IndSeq : 000030
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 28
+Customer : 0030005411
+Ref 1:           
+Ref 2: 0003511179
+IndSeq : 000020
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 29
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003510550
+IndSeq : 000110
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 30
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003510622
+IndSeq : 000130
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 31
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003509843
+IndSeq : 000100
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 32
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003510448
+IndSeq : 000160
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 33
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003510323
+IndSeq : 000100
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 34
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003509985
+IndSeq : 000080
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 35
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003510479
+IndSeq : 000230
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 36
+Customer : 0030005653
+Ref 1:           
+Ref 2: 0003493173
+IndSeq : 000089
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 37
+Customer : 0030005653
+Ref 1:           
+Ref 2: 0003493173
+IndSeq : 000090
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 38
+Customer : 0030005413
+Ref 1:           
+Ref 2: 0003492888
+IndSeq : 000010
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 39
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003510552
+IndSeq : 000130
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 40
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003509513
+IndSeq : 000130
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 41
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003510166
+IndSeq : 000120
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 42
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003510189
+IndSeq : 000090
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 43
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003510114
+IndSeq : 000140
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 44
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003509925
+IndSeq : 000130
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 45
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003509216
+IndSeq : 000020
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 46
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003510801
+IndSeq : 000070
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 47
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003509291
+IndSeq : 000100
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 48
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003513982
+IndSeq : 000300
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 49
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003513982
+IndSeq : 000020
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 50
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003509941
+IndSeq : 000050
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 51
+Customer : 0030005413
+Ref 1:           
+Ref 2: 0003492936
+IndSeq : 000010
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 52
+Customer : 0030005653
+Ref 1:           
+Ref 2: 0003511407
+IndSeq : 000010
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 53
+Customer : 0030005424
+Ref 1:           
+Ref 2: 0003506475
+IndSeq : 000010
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 54
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003509948
+IndSeq : 000100
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 55
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003510038
+IndSeq : 000100
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 56
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003509956
+IndSeq : 000070
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 57
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003509429
+IndSeq : 000170
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 58
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003509824
+IndSeq : 000220
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 59
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003509793
+IndSeq : 000030
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 60
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003509847
+IndSeq : 000070
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 61
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003510089
+IndSeq : 000130
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 62
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003510089
+IndSeq : 000120
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 63
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003509313
+IndSeq : 000160
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 64
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003510590
+IndSeq : 000200
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 65
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003510595
+IndSeq : 000120
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 66
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003514380
+IndSeq : 000230
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 67
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003514380
+IndSeq : 000390
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 68
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003509723
+IndSeq : 000140
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 69
+Customer : 0030005428
+Ref 1:           
+Ref 2: 0003514037
+IndSeq : 000020
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 70
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003510186
+IndSeq : 000060
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 71
+Customer : 0030005548
+Ref 1:           
+Ref 2: 0003514717
+IndSeq : 000020
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 72
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003509685
+IndSeq : 000140
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 73
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003509457
+IndSeq : 000110
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 74
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003509491
+IndSeq : 000160
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 75
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003510502
+IndSeq : 000160
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 76
+Customer : 0030005190
+Ref 1:           
+Ref 2: 0003509565
+IndSeq : 000050
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 77
+Customer : 0030033537
+Ref 1:           
+Ref 2: 0003501457
+IndSeq : 000030
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 78
+Customer : 0030033537
+Ref 1:           
+Ref 2: 0003501457
+IndSeq : 000020
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 79
+Customer : 0030001413
+Ref 1:           
+Ref 2: 0003500024
+IndSeq : 000041
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 80
+Customer : 0030001413
+Ref 1:           
+Ref 2: 0003500024
+IndSeq : 000040
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 81
+Customer : 0030034126
+Ref 1:           
+Ref 2: 0003504657
+IndSeq : 000020
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 82
+Customer : 0030003262
+Ref 1:           
+Ref 2: 0003493488
+IndSeq : 000010
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 83
+Customer : 0030003364
+Ref 1: 1000257420
+Ref 2: 0060583993
+IndSeq : 000053
+10/13/2014 3:05:30 PM
+Error Inserting to Table(MetroDrugSale) at Row : 84
+Customer : 0030003364
+Ref 1: 1000257420
+Ref 2: 0060583993
+IndSeq : 000063
+***********************************************************
+Text File processing completed at (10/13/2014 3:05:30 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (10/13/2014 3:07:00 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (10/14/2014 7:04:04 AM)
+***********************************************************
+***********************************************************
+Text File processing completed at (10/16/2014 5:02:05 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (10/16/2014 5:13:10 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (10/17/2014 10:24:45 AM)
+***********************************************************
+11/3/2014 10:17:34 AM
+Qty Free not Found at Row Number : 2
+11/3/2014 10:22:47 AM
+Qty Free not Found at Row Number : 2
+11/3/2014 10:35:12 AM
+Qty Free not Found at Row Number : 2
+***********************************************************
+Text File processing completed at (1/21/2015 1:10:16 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (1/21/2015 1:33:13 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (1/21/2015 3:50:39 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (1/21/2015 4:23:28 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (1/21/2015 5:00:34 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (1/21/2015 5:07:26 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (1/21/2015 5:12:32 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (3/18/2015 10:09:33 AM)
+***********************************************************
+***********************************************************
+Text File processing completed at (3/31/2015 11:05:23 AM)
+***********************************************************
+***********************************************************
+Text File processing completed at (3/31/2015 11:27:38 AM)
+***********************************************************
+***********************************************************
+Text File processing completed at (3/31/2015 12:16:43 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (3/31/2015 12:28:41 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (3/31/2015 12:53:29 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (4/6/2015 9:52:05 AM)
+***********************************************************
+***********************************************************
+Text File processing completed at (4/6/2015 1:44:26 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (4/6/2015 2:28:33 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (4/6/2015 2:58:40 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (4/6/2015 4:12:35 PM)
+***********************************************************
+***********************************************************
+Text File processing completed at (4/7/2015 9:46:26 AM)
+***********************************************************

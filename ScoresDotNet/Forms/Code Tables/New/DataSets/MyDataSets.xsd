@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="MyDataSets" targetNamespace="http://tempuri.org/MyDataSets.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/MyDataSets.xsd" xmlns:mstns="http://tempuri.org/MyDataSets.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="MyDataSets" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="sp_distributorbudgetdirect_validation_entry">
+					<xs:complexType>
+						<xs:sequence />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="sp_distributorbudgetdirect_update">
+					<xs:complexType>
+						<xs:sequence />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="sp_distributorbudgetdirect_delete">
+					<xs:complexType>
+						<xs:sequence />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="sp_item_lagundex_list">
+					<xs:complexType>
+						<xs:sequence />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="sp_division_selections_lagundex">
+					<xs:complexType>
+						<xs:sequence />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="sp_v_dsm_comm2013">
+					<xs:complexType>
+						<xs:sequence />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetTerritoriesPerMedrep">
+					<xs:complexType>
+						<xs:sequence />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="report_salesperkasgovt">
+					<xs:complexType>
+						<xs:sequence />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="commission_computeattachment_kasgovt">
+					<xs:complexType>
+						<xs:sequence />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Compute_ComIncAttachKAS">
+					<xs:complexType>
+						<xs:sequence />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Compute_ComIncKAS">
+					<xs:complexType>
+						<xs:sequence />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="sp_area_pmr_end_date">
+					<xs:complexType>
+						<xs:sequence />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="sp_area_brick_end_date">
+					<xs:complexType>
+						<xs:sequence />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="sp_area_end_date">
+					<xs:complexType>
+						<xs:sequence />
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

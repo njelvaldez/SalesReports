@@ -1,0 +1,3730 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C64E74A6-F665-4A1C-A93E-1B65BBB92C43}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>ScoresAnalytics2.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>ScoresDotNet</AssemblyName>
+    <AssemblyOriginatorKeyFile>ScoresDotNet_1_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>ScoresDotNet</RootNamespace>
+    <StartupObject>ScoresDotNet.loginform</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <SignAssembly>false</SignAssembly>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>C:\Deploy\Scores2014ClickOnce\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>\\172.22.4.27\Scores 2014 Click Once Server\</InstallUrl>
+    <ApplicationRevision>33</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>ScoresDotNet.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>ScoresDotNet.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>0AF4731F9812700D2335ABE08897DBFDAA0A5F95</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>ScoresDotNet_2_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BusinessLayer, Version=1.0.3554.17317, Culture=neutral, PublicKeyToken=a11ac73437793ab8, processorArchitecture=MSIL">
+      <HintPath>Class Library\BusinessLayer\bin\BusinessLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Web, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DataAccessLayer, Version=1.0.5135.27267, Culture=neutral, PublicKeyToken=e0ca746f0c496d86, processorArchitecture=MSIL">
+      <HintPath>Class Library\DataAccessLayer\bin\DataAccessLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Outlook">
+      <Name>Interop.Outlook</Name>
+      <HintPath>bin\Interop.Outlook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel">
+      <Name>Microsoft.Office.Interop.Excel</Name>
+      <HintPath>bin\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Vbe.Interop">
+      <Name>Microsoft.Vbe.Interop</Name>
+      <HintPath>C:\Program Files\Microsoft Visual Studio 10.0\Visual Studio Tools for Office\PIA\Office12\Microsoft.Vbe.Interop.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install">
+      <Name>System.Configuration.Install</Name>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.EnterpriseServices">
+      <Name>System.EnterpriseServices</Name>
+    </Reference>
+    <Reference Include="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Scripting">
+      <Guid>{420B2830-E718-11CF-893D-00A0C9054228}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Private>False</Private>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="512Desktop.ico" />
+    <Content Include="512Generic.ico" />
+    <None Include="bin\Alarm-Tick-icon.png" />
+    <Content Include="bin\BusinessLayer.dll" />
+    <None Include="bin\Check-2-icon.png" />
+    <Content Include="bin\CrystalDecisions.Windows.Forms.dll" />
+    <Content Include="bin\DataAccessLayer.dll" />
+    <Content Include="bin\Microsoft.Office.Interop.Excel.dll" />
+    <Content Include="bin\Microsoft.Vbe.Interop.dll" />
+    <Content Include="bin\ScoresDotNet.exe" />
+    <Content Include="bin\ScoresDotNet.pdb" />
+    <Content Include="Class Library\BusinessLayer.dll" />
+    <Content Include="Class Library\BusinessLayer\BusinessLayer.sln" />
+    <Content Include="Class Library\BusinessLayer\BusinessLayer.vbproj" />
+    <Content Include="Class Library\BusinessLayer\BusinessLayer.vbproj.user" />
+    <Content Include="Class Library\BusinessLayer\UpgradeLog.XML" />
+    <Content Include="Class Library\DataAccessLayer.dll" />
+    <Content Include="Class Library\DataAccessLayer\bin\DataAccessLayer.dll" />
+    <Content Include="Class Library\DataAccessLayer\bin\DataAccessLayer.pdb" />
+    <Content Include="Class Library\DataAccessLayer\bin\DataAccessLayer.xml" />
+    <Content Include="Class Library\DataAccessLayer\DataAccessLayer.sln" />
+    <Content Include="Class Library\DataAccessLayer\DataAccessLayer.vbproj" />
+    <Content Include="Class Library\DataAccessLayer\DataAccessLayer.vbproj.user" />
+    <Content Include="Class Library\DataAccessLayer\obj\Debug\DataAccessLayer.dll" />
+    <Content Include="Class Library\DataAccessLayer\obj\Debug\DataAccessLayer.pdb" />
+    <Content Include="Class Library\DataAccessLayer\obj\Release\DataAccessLayer.dll" />
+    <Content Include="Class Library\DataAccessLayer\obj\Release\DataAccessLayer.vbproj.FileListAbsolute.txt" />
+    <Content Include="Class Library\DataAccessLayer\obj\Release\DataAccessLayer.xml" />
+    <Content Include="Class Library\DataAccessLayer\UpgradeLog.XML" />
+    <Content Include="Class Library\DataAccessLayer\_UpgradeReport_Files\UpgradeReport.css" />
+    <Content Include="Class Library\DataAccessLayer\_UpgradeReport_Files\UpgradeReport.xslt" />
+    <Content Include="Class Library\DataAccessLayer\_UpgradeReport_Files\UpgradeReport_Minus.gif" />
+    <Content Include="Class Library\DataAccessLayer\_UpgradeReport_Files\UpgradeReport_Plus.gif" />
+    <Content Include="Data Sets\AfromComincRecover2009.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AfromComincRecover2009.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\Budget.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Budget.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\BudgetDirect_Show.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BudgetDirect_Show.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\BudgetMTD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BudgetMTD.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\ComIncRecover2008.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ComIncRecover2008.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\ComincRecover2009.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ComincRecover20091.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\Customer.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Customer.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\DistrictSalesManager.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DistrictSalesManager.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\dsComIncRecover.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsComIncRecover.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\dsCommissionAttachment.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCommissionAttachment.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\dsCustomers.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCustomers.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\dsEditIntegratedSales.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsEditIntegratedSales.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\dsHiiMedrep.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsHiiMedrep.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\dsHiiMrArea.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsHiiMrArea.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\dsHiiSupervisor.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsHiiSupervisor.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\Dsm.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Dsm.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\DSMCommission2008.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSMCommission2008.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\DSMCommission2009.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSMCommission2009.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\DSMCommission2013.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSMCommission2013.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\dsMdiSalesPerMedrep.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsMdiSalesPerMedrep.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\dsMedrepBudgetList.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsMedrepBudgetList.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\dsMedrepCommission.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsMedrepCommission.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\dsMercurySales.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsMercurySales.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\dsSupervisorCommission.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSupervisorCommission.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\dsSupervisorCommissionDetails.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSupervisorCommissionDetails.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\dsYTDrecovery.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsYTDrecovery.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\IntegratedSales_Ds.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>IntegratedSales_Ds.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\IntegratesSalesDS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>IntegratesSalesDS.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\Item.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Item.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\jpa_Performance_Current.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>jpa_Performance_Current.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\Medrep.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Medrep.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\MedrepList.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MedrepList.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\NationalSalesManager.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>NationalSalesManager.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\Nsm.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Nsm.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\Performance.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Performance.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\SalesAndTargets_Direct.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalesAndTargets_Direct.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\SalesAndTargets_Transfer.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalesAndTargets_Transfer.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\SalesCategory.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalesCategory.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\SDDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SDDataSet.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\SupervisorList.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SupervisorList.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\Territory.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Territory.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Data Sets\utDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>utDataSet.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="EXPLORER.ICO" />
+    <Content Include="Forms\Code Tables\New\DataSets\CodeTablesDS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CodeTablesDS.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Forms\Code Tables\New\DataSets\CustomerType.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CustomerType.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Forms\Code Tables\New\DataSets\dsOrg.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsOrg.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Forms\Code Tables\New\DataSets\MBactive.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MBactive.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Forms\Code Tables\New\DataSets\MyDataSetDB.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MyDataSetDB.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Forms\Code Tables\New\DataSets\MyDataSets.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MyDataSets.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Forms\Code Tables\New\DataSets\ProductsDS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProductsDS.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Forms\Code Tables\Qpi\DataSets\dsQpiTerritory.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsQpiTerritory.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Forms\Code Tables\Qpi\DataSets\dsQpi_AreaAssign.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsQpi_AreaAssign.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Forms\Code Tables\Qpi\DataSets\dsQpi_SalesSummary.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsQpi_SalesSummary.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Forms\Transactions\DataSets\dsMercuryData.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsMercuryData.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="HD Apple.ico" />
+    <Content Include="Icon #218.ico" />
+    <None Include="Class Library\BusinessLayer\ScoresBusinessKey.pfx" />
+    <None Include="Class Library\DataAccessLayer\ScoresDataKey.pfx" />
+    <None Include="Data Sets\ComincRecover2009.xss">
+      <DependentUpon>ComincRecover2009.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\ComIncRecover2015.xsc">
+      <DependentUpon>ComIncRecover2015.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\ComIncRecover2015.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ComIncRecover2015.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data Sets\ComIncRecover2015.xss">
+      <DependentUpon>ComIncRecover2015.xsd</DependentUpon>
+    </None>
+    <None Include="Forms\Code Tables\New\DataSets\MyDataSetDB.xss">
+      <DependentUpon>MyDataSetDB.xsd</DependentUpon>
+    </None>
+    <None Include="Images\Actions-contact-new-icon.png" />
+    <None Include="Images\Alarm-Arrow-Left-icon.png" />
+    <None Include="Images\calendar-icon.png" />
+    <None Include="Images\checkred.ico" />
+    <None Include="Images\door-out-icon.png" />
+    <None Include="Images\edit.png" />
+    <None Include="Images\Math-minus-icon.png" />
+    <None Include="Images\Gear-icon.png" />
+    <None Include="Images\file_copy.png" />
+    <None Include="Images\file_copy %281%29.png" />
+    <None Include="Images\filter.ico" />
+    <None Include="Images\summary-icon.png" />
+    <None Include="Images\table-sum-icon.png" />
+    <None Include="Images\save.png" />
+    <None Include="Images\Search-icon.png" />
+    <None Include="Images\Excel-icon.png" />
+    <Content Include="New Business Logic Forms\Images\112_ArrowReturnLeft_Blue_16x16_72.png" />
+    <Content Include="New Business Logic Forms\Images\112_RefreshArrow_Blue.ico" />
+    <Content Include="New Business Logic Forms\Images\512Desktop.ico" />
+    <Content Include="New Business Logic Forms\Images\512download_256px.ico" />
+    <Content Include="New Business Logic Forms\Images\512Generic.ico" />
+    <Content Include="New Business Logic Forms\Images\AutoList.png" />
+    <Content Include="New Business Logic Forms\Images\delete.png" />
+    <Content Include="New Business Logic Forms\Images\DOCS.ICO" />
+    <Content Include="New Business Logic Forms\Images\Edit_UndoHL.bmp" />
+    <Content Include="New Business Logic Forms\Images\Edit_UndoHS.png" />
+    <Content Include="New Business Logic Forms\Images\error.png" />
+    <Content Include="New Business Logic Forms\Images\Filter.png" />
+    <Content Include="New Business Logic Forms\Images\FindHH.bmp" />
+    <Content Include="New Business Logic Forms\Images\FindHS.png" />
+    <Content Include="New Business Logic Forms\Images\Find_VS.png" />
+    <Content Include="New Business Logic Forms\Images\FloppyDisk.png" />
+    <Content Include="New Business Logic Forms\Images\IPML.ICO" />
+    <Content Include="New Business Logic Forms\Images\REFBAR.ICO" />
+    <Content Include="New Business Logic Forms\Images\RepeatHS.png" />
+    <Content Include="New Business Logic Forms\Images\RolledBack.bmp" />
+    <Content Include="New Business Logic Forms\Images\Save.bmp" />
+    <Content Include="New Business Logic Forms\Images\SaveHH.bmp" />
+    <Content Include="New Business Logic Forms\Images\SaveHL.bmp" />
+    <Content Include="New Business Logic Forms\Images\saveHS.png" />
+    <Content Include="New Business Logic Forms\Images\Search.bmp" />
+    <Content Include="New Business Logic Forms\Images\search.ico" />
+    <Content Include="New Business Logic Forms\Images\search.png" />
+    <Content Include="New Business Logic Forms\Images\SearchWebHS.png" />
+    <Content Include="New Business Logic Forms\Images\smartmedia.png" />
+    <Content Include="New Business Logic Forms\Images\ZoomHS.png" />
+    <Content Include="ScoresAnalytics.ico" />
+    <Content Include="ScoresAnalytics2.ico" />
+    <Content Include="WAIT08.CUR" />
+    <EmbeddedResource Include="512download_256px.ico" />
+    <EmbeddedResource Include="Crystal Reports\File\crpSupervisorSpecialist.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpSupervisorSpecialist.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_CommissionAttachment2015.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_CommissionAttachment2015.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_DSMCommissionWithRecovery2015.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_DSMCommissionWithRecovery2015.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_DSMCommissionWithRecovery2014.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_DSMCommissionWithRecovery2014.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery2015Combi2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_MedrepCommissionWithRecovery2015Combi2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery2015Combi3.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_MedrepCommissionWithRecovery2015Combi3.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery2015Combi.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_MedrepCommissionWithRecovery2015Combi1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery2015.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_MedrepCommissionWithRecovery2015.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery2014.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_MedrepCommissionWithRecovery2014.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_CommissionAttachment2014.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_CommissionAttachment2014.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MdiSalesPerMedrepTrade.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_MdiSalesPerMedrepTrade1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MercurySalesTrade.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_MercurySalesTrade.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_CommissionAttachment.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_CommissionAttachment.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_CommissionAttachmentKASGovt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_CommissionAttachmentKASGovt.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_CommissionAttachmentMTD.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_CommissionAttachmentMTD.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_CommissionAttachmentSpv.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_CommissionAttachmentSpv.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_ControlTotals.resx">
+      <DependentUpon>Report_ControlTotals.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_ControlTotals.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_ControlTotals.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_CtSales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_CtSales.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_DSMCommission2008QX.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_DSMCommission2008QX.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_DSMCommission2009_Chiral.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_DSMCommission2009_Chiral.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_DSMCommission2010_Chiral.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_DSMCommission2010_Chiral.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_DSMCommissionWithRecovery.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_DSMCommissionWithRecovery1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_DSMCommissionWithRecovery2008.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_DSMCommissionWithRecovery2008.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_DSMCommissionWithRecovery2009.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_DSMCommissionWithRecovery2009.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_DSMCommissionWithRecovery2009PP.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_DSMCommissionWithRecovery2009PP.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_DSMCommissionWithRecovery2010.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_DSMCommissionWithRecovery2010.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_DSMCommissionWithRecovery2010BioM.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_DSMCommissionWithRecovery2010BioM.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_DSMCommissionWithRecovery2011.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_DSMCommissionWithRecovery2011.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_DSMCommissionWithRecovery2012.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_DSMCommissionWithRecovery2012.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_DSMCommissionWithRecovery2013.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_DSMCommissionWithRecovery20132.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_HiiMercurySales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_HiiMercurySales.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_HiiSalesPerTerritory.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_HiiSalesPerTerritory.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_KASGovtCommission.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_KASGovtCommission.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MdiSalesPerMedrep%28Untagged%29.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_MdiSalesPerMedrep%28Untagged%29.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MdiSalesPerMedrep.resx">
+      <DependentUpon>Report_MdiSalesPerMedrep.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MdiSalesPerMedrep.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_MdiSalesPerMedrep.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MdiSalesPerMedrepFLT.resx">
+      <DependentUpon>Report_MdiSalesPerMedrepFLT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MdiSalesPerMedrepFLT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_MdiSalesPerMedrepFLT.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MdiSalesPerMedrepMH.resx">
+      <DependentUpon>Report_MdiSalesPerMedrepMH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MdiSalesPerMedrepMH.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_MdiSalesPerMedrepMH.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MdiSalesPerMedrepMTD.resx">
+      <DependentUpon>Report_MdiSalesPerMedrepMTD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MdiSalesPerMedrepMTD.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_MdiSalesPerMedrepMTD.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MedrepCommission.resx">
+      <DependentUpon>Report_MedrepCommission.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MedrepCommission.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_MedrepCommission.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MedrepCommission2008QX.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_MedrepCommission2008QX.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MedrepCommission2009_Chiral.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_MedrepCommission2009_Chiral.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MedrepCommission2010_Chiral.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_MedrepCommission2010_Chiral.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MedrepCommission2010_FLT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_MedrepCommission2010_FLT.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MedrepCommission2010_MH.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_MedrepCommission2010_MH.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery.resx">
+      <DependentUpon>Report_MedrepCommissionWithRecovery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_MedrepCommissionWithRecovery.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery2008.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_MedrepCommissionWithRecovery2008.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery2009.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_MedrepCommissionWithRecovery2009.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery2009P.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_MedrepCommissionWithRecovery2009P.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery2010.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_MedrepCommissionWithRecovery2010.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery2010BioM.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_MedrepCommissionWithRecovery2010BioM.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery2011.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_MedrepCommissionWithRecovery2011.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery2012.resx">
+      <DependentUpon>Report_MedrepCommissionWithRecovery2012.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery2012.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_MedrepCommissionWithRecovery2012.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery2013.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_MedrepCommissionWithRecovery20132.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MercurySales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_MercurySales.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_MercurySalesMH.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_MercurySalesMH.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_SalesPerKASGovt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_SalesPerKASGovt.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_SMManagerASPComputation.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_SMManagerASPComputation.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_SMManagerIncentiveComputation.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_SMManagerIncentiveComputation.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_SMMgrIncentiveCompSummary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_SMMgrIncentiveCompSummary.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_TMHittingTarget.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_TMHittingTarget.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_SMMgrSalesPerfomance.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_SMMgrSalesPerfomance1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_SupervisorCommission.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_SupervisorCommission.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_YTDrecovery.resx">
+      <DependentUpon>Report_YTDrecovery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_YTDrecovery.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_YTDrecovery.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_YTDrecoveryDSM.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_YTDrecoveryDSM.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_YTDrecoveryDSMpush.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_YTDrecoveryDSMpush1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_YTDrecoveryDSMpush1.resx">
+      <DependentUpon>Report_YTDrecoveryDSMpush1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_YTDrecoveryPush.resx">
+      <DependentUpon>Report_YTDrecoveryPush.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Report_YTDrecoveryPush.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_YTDrecoveryPush.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Rpt_ActiveMB.resx">
+      <DependentUpon>Rpt_ActiveMB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Rpt_ActiveMB.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_ActiveMB.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Rpt_CalenderizedDsmRank.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_CalenderizedDsmRank.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Rpt_CalenderizedPmrRank.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_CalenderizedPmrRank.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Rpt_PerformanceGeneric.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_PerformanceGeneric.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Others\Rpt_PerformanceGeneric_Spv.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_PerformanceGeneric_Spv.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Performance\Mercury Direct\Report_NSMAdjustedQty_Direct.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_NSMAdjustedQty_Direct.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Performance\Mercury Direct\Report_NSMAdjustedSales_Direct.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_NSMAdjustedSales_Direct.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Performance\Mercury Direct\Report_NSMOriginalQty_Direct.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_NSMOriginalQty_Direct.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Performance\Mercury Direct\Report_NSMOriginalSales_Direct.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_NSMOriginalSales_Direct.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Performance\Mercury Stock Transfer\Dsm\Report_DSMAdjustedQty_StockTransfer.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_DSMAdjustedQty_StockTransfer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Performance\Mercury Stock Transfer\Dsm\Report_DSMAdjustedSales_StockTransfer.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_DSMAdjustedSales_StockTransfer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Performance\Mercury Stock Transfer\Dsm\Report_DSMOriginalQty_StockTransfer.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_DSMOriginalQty_StockTransfer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Performance\Mercury Stock Transfer\Dsm\Report_DSMOriginalSales_StockTransfer.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_DSMOriginalSales_StockTransfer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Performance\Mercury Stock Transfer\Nsm\Report_NSMAdjustedQty_StockTransfer.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_NSMAdjustedQty_StockTransfer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Performance\Mercury Stock Transfer\Nsm\Report_NSMAdjustedSales_StockTransfer.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_NSMAdjustedSales_StockTransfer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Performance\Mercury Stock Transfer\Nsm\Report_NSMOriginalQty_StockTransfer.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_NSMOriginalQty_StockTransfer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Performance\Mercury Stock Transfer\Nsm\Report_NSMOriginalSales_StockTransfer.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_NSMOriginalSales_StockTransfer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Performance\Mercury Stock Transfer\Pmr\Report_AdjustedQty_StockTransfer.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_AdjustedQty_StockTransfer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Performance\Mercury Stock Transfer\Pmr\Report_AdjustedSales_StockTransfer.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_AdjustedSales_StockTransfer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Performance\Mercury Stock Transfer\Pmr\Report_OriginalQty_StockTransfer.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_OriginalQty_StockTransfer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\Performance\Mercury Stock Transfer\Pmr\Report_OriginalSales_StockTransfer.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_OriginalSales_StockTransfer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Reports\OldReport_CommissionAttachment.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>OldReport_CommissionAttachment.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\BudgetOsCT.resx">
+      <DependentUpon>BudgetOsCT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\CallRateBudgetCT.resx">
+      <DependentUpon>CallRateBudgetCT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\CallRateCT.resx">
+      <DependentUpon>CallRateCT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\CompanyCT.resx">
+      <DependentUpon>CompanyCT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\cOrgChrt.resx">
+      <DependentUpon>cOrgChrt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\CustomerCT.resx">
+      <DependentUpon>CustomerCT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\CustomerTypeCT.resx">
+      <DependentUpon>CustomerTypeCT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\DistrictCT.resx">
+      <DependentUpon>DistrictCT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\DivisionCT.resx">
+      <DependentUpon>DivisionCT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\EditIntegratedSales.resx">
+      <DependentUpon>EditIntegratedSales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\EditIntegratedSalesMercury.resx">
+      <DependentUpon>EditIntegratedSalesMercury.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\frm4thKeyProducts.resx">
+      <DependentUpon>frm4thKeyProducts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\frm5thKeyProducts.resx">
+      <DependentUpon>frm5thKeyProducts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\frmDistrict.resx">
+      <DependentUpon>frmDistrict.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\frmDistrictEntry.resx">
+      <DependentUpon>frmDistrictEntry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\frmDistrictSupervisorEntry.resx">
+      <DependentUpon>frmDistrictSupervisorEntry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\frmDistrictSupervisorMaint.resx">
+      <DependentUpon>frmDistrictSupervisorMaint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\frmDistrictSupervisorUpdate.resx">
+      <DependentUpon>frmDistrictSupervisorUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\frmDistrictUpdate.resx">
+      <DependentUpon>frmDistrictUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\frmExCustomers.resx">
+      <DependentUpon>frmExCustomers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\frmExCustomersZue.resx">
+      <DependentUpon>frmExCustomersZue.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\frmKeyProducts.resx">
+      <DependentUpon>frmKeyProducts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\frmPushProducts.resx">
+      <DependentUpon>frmPushProducts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\frmSMIncTemplate.resx">
+      <DependentUpon>frmSMIncTemplate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\frmSubKeyProduct.resx">
+      <DependentUpon>frmSubKeyProduct.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\frmTerKeyProduct.resx">
+      <DependentUpon>frmTerKeyProduct.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\frmUtility.resx">
+      <DependentUpon>frmUtility.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\GroupCT.resx">
+      <DependentUpon>GroupCT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\Idiv_Entry.resx">
+      <DependentUpon>Idiv_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\Idsg_Entry.resx">
+      <DependentUpon>Idsg_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\Insm_Entry.resx">
+      <DependentUpon>Insm_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\Ipc_Entry.resx">
+      <DependentUpon>Ipc_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\Ipm_Entry.resx">
+      <DependentUpon>Ipm_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\Iprin_Entry.resx">
+      <DependentUpon>Iprin_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\ItemCT.resx">
+      <DependentUpon>ItemCT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\Itm_Entry.resx">
+      <DependentUpon>Itm_Entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\MedrepCT.resx">
+      <DependentUpon>MedrepCT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\MedRepOldCT.resx">
+      <DependentUpon>MedRepOldCT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\MercuryBranchCT.resx">
+      <DependentUpon>MercuryBranchCT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\MercuryItemCT.resx">
+      <DependentUpon>MercuryItemCT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\ModTradDSM.resx">
+      <DependentUpon>ModTradDSM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\NsmCT.resx">
+      <DependentUpon>NsmCT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\PM_CT.resx">
+      <DependentUpon>PM_CT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\PrincipalCT.resx">
+      <DependentUpon>PrincipalCT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\ProductFormCT.resx">
+      <DependentUpon>ProductFormCT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\ProductLineCT.resx">
+      <DependentUpon>ProductLineCT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\ProductLinesCT.resx">
+      <DependentUpon>ProductLinesCT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\ProvinceCT.resx">
+      <DependentUpon>ProvinceCT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\QpiTerritoryBudgetCT.resx">
+      <DependentUpon>QpiTerritoryBudgetCT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\SupDiv.resx">
+      <DependentUpon>SupDiv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\SupervisorCT.resx">
+      <DependentUpon>SupervisorCT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\SupMr.resx">
+      <DependentUpon>SupMr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\SupNSM.resx">
+      <DependentUpon>SupNSM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\TeamDivisionCT.resx">
+      <DependentUpon>TeamDivisionCT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\TerritoryAreaBrickEntry.resx">
+      <DependentUpon>TerritoryAreaBrickEntry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\TerritoryAreaBrickUpdate.resx">
+      <DependentUpon>TerritoryAreaBrickUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\TerritoryAreaEntry.resx">
+      <DependentUpon>TerritoryAreaEntry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\TerritoryAreaMaint.resx">
+      <DependentUpon>TerritoryAreaMaint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\TerritoryAreaPMREntry.resx">
+      <DependentUpon>TerritoryAreaPMREntry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\TerritoryAreaPMRUpdate.resx">
+      <DependentUpon>TerritoryAreaPMRUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\TerritoryAreaUpdate.resx">
+      <DependentUpon>TerritoryAreaUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\TerritoryCT.resx">
+      <DependentUpon>TerritoryCT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Forms\User.resx">
+      <DependentUpon>User.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Reports\Calenderized\CallRate_CalenderizedDSM.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CallRate_CalenderizedDSM.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Reports\Calenderized\CallRate_CalenderizedNSM.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CallRate_CalenderizedNSM.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Reports\Calenderized\CallRate_CalenderizedPMR.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CallRate_CalenderizedPMR.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Reports\Monthly\CallRate_MonthlyDSM.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CallRate_MonthlyDSM.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Reports\Monthly\CallRate_MonthlyNSM.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CallRate_MonthlyNSM.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\New\Reports\Monthly\CallRate_MonthlyPMR.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CallRate_MonthlyPMR.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\Old\frmItem.resx">
+      <DependentUpon>frmItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\Old\frmItemBrowse.resx">
+      <DependentUpon>frmItemBrowse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\Old\frmSupMr.resx">
+      <DependentUpon>frmSupMr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\Qpi\Forms\frmQpiTerritory.resx">
+      <DependentUpon>frmQpiTerritory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\Qpi\Forms\frmQpiTerritoryAssignment.resx">
+      <DependentUpon>frmQpiTerritoryAssignment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\Qpi\Forms\frmQpiTerritoryAssignment_Modify.resx">
+      <DependentUpon>frmQpiTerritoryAssignment_Modify.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\Qpi\Reports\Report_QpiMercurySales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_QpiMercurySales.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\Qpi\Reports\Report_QpiSalesPerMedrep.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_QpiSalesPerMedrep.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\Qpi\Reports\Report_QpiSalesPerTerritory.resx">
+      <DependentUpon>Report_QpiSalesPerTerritory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\Qpi\Reports\Report_QpiSalesPerTerritory.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_QpiSalesPerTerritory.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code Tables\Qpi\Reports\Report_QpiSalesSummary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_QpiSalesSummary.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Common\DateRangeBox.resx">
+      <DependentUpon>DateRangeBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Common\frmCodDesc.resx">
+      <DependentUpon>frmCodDesc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Common\frmDesc.resx">
+      <DependentUpon>frmDesc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Common\frmDialogBox.resx">
+      <DependentUpon>frmDialogBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Common\LogIn.resx">
+      <DependentUpon>LogIn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Common\LoginForm.resx">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Common\Main.resx">
+      <DependentUpon>Main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Common\NewLogIn.resx">
+      <DependentUpon>NewLogIn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Common\TerriPopup.resx">
+      <DependentUpon>TerriPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\File Maintenance\frmBudget.resx">
+      <DependentUpon>frmBudget.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\File Maintenance\frmBudgetDirect.resx">
+      <DependentUpon>frmBudgetDirect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\File Maintenance\frmBudgetDirectPerDistributor.resx">
+      <DependentUpon>frmBudgetDirectPerDistributor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\File Maintenance\frmBudgetDirectPerDistributorUpdate.resx">
+      <DependentUpon>frmBudgetDirectPerDistributorUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\File Maintenance\frmBudgetItem.resx">
+      <DependentUpon>frmBudgetItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\File Maintenance\frmBudgetPmr.resx">
+      <DependentUpon>frmBudgetPmr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\File Maintenance\frmBudgetPmrModernTrade.resx">
+      <DependentUpon>frmBudgetPmrModernTrade.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\File Maintenance\frmDistributeReports.resx">
+      <DependentUpon>frmDistributeReports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\File Maintenance\frmDivisionSub.resx">
+      <DependentUpon>frmDivisionSub.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\File Maintenance\frmIMSbrick.resx">
+      <DependentUpon>frmIMSbrick.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\File Maintenance\frmItemBudget2.resx">
+      <DependentUpon>frmItemBudget2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\File Maintenance\frmMedrep.resx">
+      <DependentUpon>frmMedrep.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\File Maintenance\frmMedrepBudgetList.resx">
+      <DependentUpon>frmMedrepBudgetList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\File Maintenance\frmMedRepTerryAssign.resx">
+      <DependentUpon>frmMedRepTerryAssign.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\File Maintenance\frmMH_MRTerryAssign.resx">
+      <DependentUpon>frmMH_MRTerryAssign.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\File Maintenance\frmMyItemBrowse.resx">
+      <DependentUpon>frmMyItemBrowse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\File Maintenance\frmQpiAreaAssign.resx">
+      <DependentUpon>frmQpiAreaAssign.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\File Maintenance\frmQPIareacode.resx">
+      <DependentUpon>frmQPIareacode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Reports\frmReportViewer.resx">
+      <DependentUpon>frmReportViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Transactions\frmProcessCallRate.resx">
+      <DependentUpon>frmProcessCallRate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Transactions\frmProcessCallRateProduct.resx">
+      <DependentUpon>frmProcessCallRateProduct.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Transactions\frmProcessInHouseData.resx">
+      <DependentUpon>frmProcessInHouseData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Transactions\frmProcessInMarket.resx">
+      <DependentUpon>frmProcessInMarket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Transactions\frmProcessMdiData.resx">
+      <DependentUpon>frmProcessMdiData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Transactions\frmProcessMdiData_Daily.resx">
+      <DependentUpon>frmProcessMdiData_Daily.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Transactions\frmProcessMercuryData.resx">
+      <DependentUpon>frmProcessMercuryData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Transactions\frmProcessMercuryDataSept.resx">
+      <DependentUpon>frmProcessMercuryDataSept.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Transactions\frmProcessProscar.resx">
+      <DependentUpon>frmProcessProscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Transactions\frmProcessSubDistributorData.resx">
+      <DependentUpon>frmProcessSubDistributorData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Transactions\frmProcessTradeReport.resx">
+      <DependentUpon>frmProcessTradeReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Budget\frmBudgetTransfers.resx">
+      <DependentUpon>frmBudgetTransfers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Budget\frmTransferSPBudget.resx">
+      <DependentUpon>frmTransferSPBudget.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Common\frmLookUp.resx">
+      <DependentUpon>frmLookUp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Controls\frmSalesControl.resx">
+      <DependentUpon>frmSalesControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Controls\frmSalesDiscrepancy.resx">
+      <DependentUpon>frmSalesDiscrepancy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Controls\frmUntagged.resx">
+      <DependentUpon>frmUntagged.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Controls\frmValidateBracco.resx">
+      <DependentUpon>frmValidateBracco.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\IntegratedSales\frmSplit.resx">
+      <DependentUpon>frmSplit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\IntegratedSales\frmTransferSalesToSP.resx">
+      <DependentUpon>frmTransferSalesToSP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\IntegratedSales\frmTransferSalesToTM.resx">
+      <DependentUpon>frmTransferSalesToTM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\IntegratedSales\frmTransferToTSSP.resx">
+      <DependentUpon>frmTransferToTSSP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\IntegratedSales\frmUnCredit.resx">
+      <DependentUpon>frmUnCredit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Maintenance\frmArea.resx">
+      <DependentUpon>frmArea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Maintenance\frmDistrictAreaAreaPMR.resx">
+      <DependentUpon>frmDistrictAreaAreaPMR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Maintenance\frmResignedTM.resx">
+      <DependentUpon>frmResignedTM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Maintenance\frmResignedSpecialist.resx">
+      <DependentUpon>frmResignedSpecialist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Maintenance\frmSegSegHead.resx">
+      <DependentUpon>frmSegSegHead.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\MercurySales\frmMercurySales.resx">
+      <DependentUpon>frmMercurySales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\MercurySales\frmTransferMercuryTSSP.resx">
+      <DependentUpon>frmTransferMercuryTSSP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\ProcessSubDist\frm518SubDist.resx">
+      <DependentUpon>frm518SubDist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\ProcessSubDist\frm518SubDistNew.resx">
+      <DependentUpon>frm518SubDistNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\ProcessSubDist\frmRosePharmacy.resx">
+      <DependentUpon>frmRosePharmacy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\ProcessSubDist\frmSouthStarDrugNew.resx">
+      <DependentUpon>frmSouthStarDrugNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Direct\frmAccountCoverage.resx">
+      <DependentUpon>frmAccountCoverage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Direct\frmAverageSellingPrice.resx">
+      <DependentUpon>frmAverageSellingPrice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\ProcessSubDist\frmBarrXselSubDist.resx">
+      <DependentUpon>frmBarrXselSubDist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Direct\frmBRReports.resx">
+      <DependentUpon>frmBRReports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Budget\frmBudgetForDirect.resx">
+      <DependentUpon>frmBudgetForDirect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Budget\frmBudgetForSpecialist.resx">
+      <DependentUpon>frmBudgetForSpecialist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Direct\frmBudgetDirectReport.resx">
+      <DependentUpon>frmBudgetDirectReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Direct\frmBudgetDirectSummary.resx">
+      <DependentUpon>frmBudgetDirectSummary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Direct\frmCalendarizedItemSales.resx">
+      <DependentUpon>frmCalendarizedItemSales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Direct\frmCMReportPivot.resx">
+      <DependentUpon>frmCMReportPivot.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\ProcessSubDist\frmEditDataMapping.resx">
+      <DependentUpon>frmEditDataMapping.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\ProcessSubDist\frmGBSubDist.resx">
+      <DependentUpon>frmGBSubDist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Process\frmGenerateInvoiceList.resx">
+      <DependentUpon>frmGenerateInvoiceList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Process\frmGenerateNMPCSalesUpdate.resx">
+      <DependentUpon>frmGenerateNMPCSalesUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Process\frmDailySalesUpdateUtil.resx">
+      <DependentUpon>frmDailySalesUpdateUtil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\ProcessSubDist\frmGloboSubDist.resx">
+      <DependentUpon>frmGloboSubDist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Direct\frmCustomerReachDirect.resx">
+      <DependentUpon>frmCustomerReachDirect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Direct\frmIMSInhouseReport.resx">
+      <DependentUpon>frmIMSInhouseReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\IntegratedSales\frmIntegratedSales.resx">
+      <DependentUpon>frmIntegratedSales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Direct\frmItemSalesReportDirect.resx">
+      <DependentUpon>frmItemSalesReportDirect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Direct\frmSalesMarketingIncentives.resx">
+      <DependentUpon>frmSalesMarketingIncentives.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Direct\frmSalesPerformanceDirect.resx">
+      <DependentUpon>frmSalesPerformanceDirect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Direct\frmSalesPerformanceDirectMAT.resx">
+      <DependentUpon>frmSalesPerformanceDirectMAT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Direct\frmSalesTrendDirectMAT.resx">
+      <DependentUpon>frmSalesTrendDirectMAT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Direct\frmSalesTrendDirectYTDver9.resx">
+      <DependentUpon>frmSalesTrendDirectYTDver9.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Direct\frmSalesTrendDirectYTDVer10.resx">
+      <DependentUpon>frmSalesTrendDirectYTDVer10.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Direct\frmSaleTrendDirectMATVer10.resx">
+      <DependentUpon>frmSaleTrendDirectMATVer10.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Stock Transfer\frmBudget2MonthsReport.resx">
+      <DependentUpon>frmBudget2MonthsReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Stock Transfer\frmBudgetMonthlyReport.resx">
+      <DependentUpon>frmBudgetMonthlyReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Stock Transfer\frmCustomerReachStockTransfer.resx">
+      <DependentUpon>frmCustomerReachStockTransfer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Stock Transfer\frmExtractBOIE.resx">
+      <DependentUpon>frmExtractBOIE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Stock Transfer\frmItemSalesReportStockTransfer.resx">
+      <DependentUpon>frmItemSalesReportStockTransfer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Stock Transfer\frmSalesPerformanceSPAward.resx">
+      <DependentUpon>frmSalesPerformanceSPAward.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Stock Transfer\frmSalesPerformanceSPAwardTrade.resx">
+      <DependentUpon>frmSalesPerformanceSPAwardTrade.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Stock Transfer\frmSalesPerformanceSPTM.resx">
+      <DependentUpon>frmSalesPerformanceSPTM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Stock Transfer\frmSalesPerformanceSPTMMAT.resx">
+      <DependentUpon>frmSalesPerformanceSPTMMAT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Stock Transfer\frmSalesPerformanceSPTMTrade.resx">
+      <DependentUpon>frmSalesPerformanceSPTMTrade.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Stock Transfer\frmSalesPerformanceSPTMTradeMonth.resx">
+      <DependentUpon>frmSalesPerformanceSPTMTradeMonth.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Stock Transfer\frmSalesPerformanceTMAward.resx">
+      <DependentUpon>frmSalesPerformanceTMAward.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Stock Transfer\frmSalesPerformanceTMAwardTrade.resx">
+      <DependentUpon>frmSalesPerformanceTMAwardTrade.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Stock Transfer\frmSalesTrendDirect.resx">
+      <DependentUpon>frmSalesTrendDirect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\ProcessSubDist\frmSouthStarSubDist.resx">
+      <DependentUpon>frmSouthStarSubDist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\IntegratedSales\frmTransferSales.resx">
+      <DependentUpon>frmTransferSales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Stock Transfer\frmSalesTrendStockTransfer.resx">
+      <DependentUpon>frmSalesTrendStockTransfer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Stock Transfer\frmSalesAndTargetsTransfer.resx">
+      <DependentUpon>frmSalesAndTargetsTransfer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Stock Transfer\frmSalesTrendStockTransfer2015.resx">
+      <DependentUpon>frmSalesTrendStockTransfer2015.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Utility\Reports\Stock Transfer\frmSalesTrendStockTransferMAT.resx">
+      <DependentUpon>frmSalesTrendStockTransferMAT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyClass\MyTabPageClass.resx">
+      <DependentUpon>MyTabPageClass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControls\MyTabPageControl.resx">
+      <DependentUpon>MyTabPageControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControls\MyTabPageControl1.resx">
+      <DependentUpon>MyTabPageControl1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New Business Logic Forms\About.resx">
+      <DependentUpon>About.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New Business Logic Forms\CustomerShipToMaster.resx">
+      <DependentUpon>CustomerShipToMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New Business Logic Forms\CustomerShipToMaster_Tagging.resx">
+      <DependentUpon>CustomerShipToMaster_Tagging.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New Business Logic Forms\DuplicateTransactions.resx">
+      <DependentUpon>DuplicateTransactions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New Business Logic Forms\MdiWeeklySalesInvoiceExport.resx">
+      <DependentUpon>MdiWeeklySalesInvoiceExport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New Business Logic Forms\MergedStockTransferExport.resx">
+      <DependentUpon>MergedStockTransferExport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New Business Logic Forms\NewBusinessRuleMaintenance.resx">
+      <DependentUpon>NewBusinessRuleMaintenance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New Business Logic Forms\NewCustomer.resx">
+      <DependentUpon>NewCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New Business Logic Forms\NewItem.resx">
+      <DependentUpon>NewItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New Business Logic Forms\SalesAdjustments.resx">
+      <DependentUpon>SalesAdjustments.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bin\ScoresDotNet.exe.config" />
+    <None Include="Data Sets\AfromComincRecover2009.xsc">
+      <DependentUpon>AfromComincRecover2009.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\AfromComincRecover2009.xsx">
+      <DependentUpon>AfromComincRecover2009.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\Budget.xsc">
+      <DependentUpon>Budget.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\Budget.xsx">
+      <DependentUpon>Budget.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\BudgetDirect_Show.xsc">
+      <DependentUpon>BudgetDirect_Show.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\BudgetDirect_Show.xsx">
+      <DependentUpon>BudgetDirect_Show.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\BudgetMTD.xsc">
+      <DependentUpon>BudgetMTD.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\BudgetMTD.xsx">
+      <DependentUpon>BudgetMTD.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\ComIncRecover2008.xsc">
+      <DependentUpon>ComIncRecover2008.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\ComIncRecover2008.xsx">
+      <DependentUpon>ComIncRecover2008.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\ComincRecover2009.xsc">
+      <DependentUpon>ComincRecover2009.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\ComincRecover2009.xsx">
+      <DependentUpon>ComincRecover2009.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\Customer.xsc">
+      <DependentUpon>Customer.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\Customer.xsx">
+      <DependentUpon>Customer.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\DistrictSalesManager.xsc">
+      <DependentUpon>DistrictSalesManager.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\DistrictSalesManager.xsx">
+      <DependentUpon>DistrictSalesManager.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\dsComIncRecover.xsc">
+      <DependentUpon>dsComIncRecover.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\dsComIncRecover.xsx">
+      <DependentUpon>dsComIncRecover.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\dsCommissionAttachment.xsc">
+      <DependentUpon>dsCommissionAttachment.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\dsCommissionAttachment.xsx">
+      <DependentUpon>dsCommissionAttachment.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\dsCustomers.xsc">
+      <DependentUpon>dsCustomers.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\dsCustomers.xsx">
+      <DependentUpon>dsCustomers.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\dsEditIntegratedSales.xsc">
+      <DependentUpon>dsEditIntegratedSales.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\dsEditIntegratedSales.xsx">
+      <DependentUpon>dsEditIntegratedSales.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\dsHiiMedrep.xsc">
+      <DependentUpon>dsHiiMedrep.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\dsHiiMedrep.xsx">
+      <DependentUpon>dsHiiMedrep.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\dsHiiMrArea.xsc">
+      <DependentUpon>dsHiiMrArea.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\dsHiiMrArea.xsx">
+      <DependentUpon>dsHiiMrArea.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\dsHiiSupervisor.xsc">
+      <DependentUpon>dsHiiSupervisor.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\dsHiiSupervisor.xsx">
+      <DependentUpon>dsHiiSupervisor.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\Dsm.xsc">
+      <DependentUpon>Dsm.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\Dsm.xsx">
+      <DependentUpon>Dsm.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\DSMCommission2008.xsc">
+      <DependentUpon>DSMCommission2008.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\DSMCommission2008.xsx">
+      <DependentUpon>DSMCommission2008.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\DSMCommission2009.xsc">
+      <DependentUpon>DSMCommission2009.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\DSMCommission2009.xsx">
+      <DependentUpon>DSMCommission2009.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\DSMCommission2013.xsc">
+      <DependentUpon>DSMCommission2013.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\DSMCommission2013.xsx">
+      <DependentUpon>DSMCommission2013.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\dsMdiSalesPerMedrep.xsc">
+      <DependentUpon>dsMdiSalesPerMedrep.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\dsMdiSalesPerMedrep.xss">
+      <DependentUpon>dsMdiSalesPerMedrep.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\dsMedrepBudgetList.xsc">
+      <DependentUpon>dsMedrepBudgetList.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\dsMedrepBudgetList.xsx">
+      <DependentUpon>dsMedrepBudgetList.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\dsMedrepCommission.xsc">
+      <DependentUpon>dsMedrepCommission.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\dsMercurySales.xsc">
+      <DependentUpon>dsMercurySales.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\dsMercurySales.xss">
+      <DependentUpon>dsMercurySales.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\dsMercurySales.xsx">
+      <DependentUpon>dsMercurySales.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\dsSupervisorCommission.xsc">
+      <DependentUpon>dsSupervisorCommission.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\dsSupervisorCommission.xsx">
+      <DependentUpon>dsSupervisorCommission.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\dsSupervisorCommissionDetails.xsc">
+      <DependentUpon>dsSupervisorCommissionDetails.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\dsSupervisorCommissionDetails.xsx">
+      <DependentUpon>dsSupervisorCommissionDetails.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\dsYTDrecovery.xsc">
+      <DependentUpon>dsYTDrecovery.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\dsYTDrecovery.xsx">
+      <DependentUpon>dsYTDrecovery.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\IntegratedSales_Ds.xsc">
+      <DependentUpon>IntegratedSales_Ds.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\IntegratedSales_Ds.xsx">
+      <DependentUpon>IntegratedSales_Ds.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\IntegratesSalesDS.xsc">
+      <DependentUpon>IntegratesSalesDS.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\IntegratesSalesDS.xsx">
+      <DependentUpon>IntegratesSalesDS.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\Item.xsc">
+      <DependentUpon>Item.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\Item.xsx">
+      <DependentUpon>Item.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\jpa_Performance_Current.xsc">
+      <DependentUpon>jpa_Performance_Current.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\jpa_Performance_Current.xsx">
+      <DependentUpon>jpa_Performance_Current.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\Medrep.xsc">
+      <DependentUpon>Medrep.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\Medrep.xsx">
+      <DependentUpon>Medrep.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\MedrepList.xsc">
+      <DependentUpon>MedrepList.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\MedrepList.xsx">
+      <DependentUpon>MedrepList.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\NationalSalesManager.xsc">
+      <DependentUpon>NationalSalesManager.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\NationalSalesManager.xsx">
+      <DependentUpon>NationalSalesManager.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\Nsm.xsc">
+      <DependentUpon>Nsm.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\Nsm.xsx">
+      <DependentUpon>Nsm.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\Performance.xsc">
+      <DependentUpon>Performance.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\Performance.xsx">
+      <DependentUpon>Performance.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\SalesAndTargets_Direct.xsc">
+      <DependentUpon>SalesAndTargets_Direct.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\SalesAndTargets_Direct.xsx">
+      <DependentUpon>SalesAndTargets_Direct.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\SalesAndTargets_Transfer.xsc">
+      <DependentUpon>SalesAndTargets_Transfer.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\SalesAndTargets_Transfer.xsx">
+      <DependentUpon>SalesAndTargets_Transfer.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\SalesCategory.xsc">
+      <DependentUpon>SalesCategory.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\SalesCategory.xsx">
+      <DependentUpon>SalesCategory.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\SDDataSet.xsc">
+      <DependentUpon>SDDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\SDDataSet.xsx">
+      <DependentUpon>SDDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\SupervisorList.xsc">
+      <DependentUpon>SupervisorList.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\Territory.xsc">
+      <DependentUpon>Territory.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\Territory.xsx">
+      <DependentUpon>Territory.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\utDataSet.xsc">
+      <DependentUpon>utDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Data Sets\utDataSet.xsx">
+      <DependentUpon>utDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Documents\Functional Documentation.doc" />
+    <None Include="Documents\JBFs Uncompleted Projects as of Nov 15, 2005.doc" />
+    <None Include="Forms\Code Tables\New\DataSets\CodeTablesDS.xsc">
+      <DependentUpon>CodeTablesDS.xsd</DependentUpon>
+    </None>
+    <None Include="Forms\Code Tables\New\DataSets\CodeTablesDS.xss">
+      <DependentUpon>CodeTablesDS.xsd</DependentUpon>
+    </None>
+    <None Include="Forms\Code Tables\New\DataSets\CodeTablesDS.xsx">
+      <DependentUpon>CodeTablesDS.xsd</DependentUpon>
+    </None>
+    <None Include="Forms\Code Tables\New\DataSets\CustomerType.xsc">
+      <DependentUpon>CustomerType.xsd</DependentUpon>
+    </None>
+    <None Include="Forms\Code Tables\New\DataSets\CustomerType.xsx">
+      <DependentUpon>CustomerType.xsd</DependentUpon>
+    </None>
+    <None Include="Forms\Code Tables\New\DataSets\DataSetSample.xsc">
+      <DependentUpon>DataSetSample.xsd</DependentUpon>
+    </None>
+    <None Include="Forms\Code Tables\New\DataSets\DataSetSample.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetSample.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Forms\Code Tables\New\DataSets\DataSetSample.xss">
+      <DependentUpon>DataSetSample.xsd</DependentUpon>
+    </None>
+    <None Include="Forms\Code Tables\New\DataSets\dsOrg.xsc">
+      <DependentUpon>dsOrg.xsd</DependentUpon>
+    </None>
+    <None Include="Forms\Code Tables\New\DataSets\dsOrg.xsx">
+      <DependentUpon>dsOrg.xsd</DependentUpon>
+    </None>
+    <None Include="Forms\Code Tables\New\DataSets\MBactive.xsc">
+      <DependentUpon>MBactive.xsd</DependentUpon>
+    </None>
+    <None Include="Forms\Code Tables\New\DataSets\MBactive.xsx">
+      <DependentUpon>MBactive.xsd</DependentUpon>
+    </None>
+    <None Include="Forms\Code Tables\New\DataSets\MyDataSetDB.xsc">
+      <DependentUpon>MyDataSetDB.xsd</DependentUpon>
+    </None>
+    <None Include="Forms\Code Tables\New\DataSets\MyDataSetDB.xsx">
+      <DependentUpon>MyDataSetDB.xsd</DependentUpon>
+    </None>
+    <None Include="Forms\Code Tables\New\DataSets\MyDataSets.xsc">
+      <DependentUpon>MyDataSets.xsd</DependentUpon>
+    </None>
+    <None Include="Forms\Code Tables\New\DataSets\MyDataSets.xsx">
+      <DependentUpon>MyDataSets.xsd</DependentUpon>
+    </None>
+    <None Include="Forms\Code Tables\New\DataSets\ProductsDS.xsc">
+      <DependentUpon>ProductsDS.xsd</DependentUpon>
+    </None>
+    <None Include="Forms\Code Tables\New\DataSets\ProductsDS.xsx">
+      <DependentUpon>ProductsDS.xsd</DependentUpon>
+    </None>
+    <None Include="Forms\Code Tables\Qpi\DataSets\dsQpiTerritory.xsc">
+      <DependentUpon>dsQpiTerritory.xsd</DependentUpon>
+    </None>
+    <None Include="Forms\Code Tables\Qpi\DataSets\dsQpiTerritory.xsx">
+      <DependentUpon>dsQpiTerritory.xsd</DependentUpon>
+    </None>
+    <None Include="Forms\Code Tables\Qpi\DataSets\dsQpi_AreaAssign.xsc">
+      <DependentUpon>dsQpi_AreaAssign.xsd</DependentUpon>
+    </None>
+    <None Include="Forms\Code Tables\Qpi\DataSets\dsQpi_AreaAssign.xsx">
+      <DependentUpon>dsQpi_AreaAssign.xsd</DependentUpon>
+    </None>
+    <None Include="Forms\Code Tables\Qpi\DataSets\dsQpi_SalesSummary.xsc">
+      <DependentUpon>dsQpi_SalesSummary.xsd</DependentUpon>
+    </None>
+    <None Include="Forms\Code Tables\Qpi\DataSets\dsQpi_SalesSummary.xsx">
+      <DependentUpon>dsQpi_SalesSummary.xsd</DependentUpon>
+    </None>
+    <None Include="Forms\Transactions\DataSets\dsMercuryData.xsc">
+      <DependentUpon>dsMercuryData.xsd</DependentUpon>
+    </None>
+    <None Include="Forms\Transactions\DataSets\dsMercuryData.xsx">
+      <DependentUpon>dsMercuryData.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="ScoresDotNet_1_TemporaryKey.pfx" />
+    <None Include="ScoresDotNet_2_TemporaryKey.pfx" />
+    <None Include="ScoresDotNet_TemporaryKey.pfx" />
+    <Compile Include="Class Library\BusinessLayer\AssemblyInfo.vb" />
+    <Compile Include="Class Library\BusinessLayer\clsBudgetPmr.vb" />
+    <Compile Include="Class Library\BusinessLayer\clsCommissionComputations.vb" />
+    <Compile Include="Class Library\BusinessLayer\clsCustomer.vb" />
+    <Compile Include="Class Library\BusinessLayer\clsDistrictSalesManager.vb" />
+    <Compile Include="Class Library\BusinessLayer\clsDsm.vb" />
+    <Compile Include="Class Library\BusinessLayer\clsExtraction.vb" />
+    <Compile Include="Class Library\BusinessLayer\clsFileMaintenance.vb" />
+    <Compile Include="Class Library\BusinessLayer\clsIntegratedSales.vb" />
+    <Compile Include="Class Library\BusinessLayer\clsItem.vb" />
+    <Compile Include="Class Library\BusinessLayer\clsMedrep.vb" />
+    <Compile Include="Class Library\BusinessLayer\clsMercuryDirectBudget.vb" />
+    <Compile Include="Class Library\BusinessLayer\clsNationalSalesManager.vb" />
+    <Compile Include="Class Library\BusinessLayer\clsNsm.vb" />
+    <Compile Include="Class Library\BusinessLayer\clsPerformance.vb" />
+    <Compile Include="Class Library\BusinessLayer\clsSalesAndTargetsTransfer.vb" />
+    <Compile Include="Class Library\BusinessLayer\clsSalesCategory.vb" />
+    <Compile Include="Class Library\BusinessLayer\clsTerritory.vb" />
+    <Compile Include="Class Library\DataAccessLayer\DataAccessHelper.vb" />
+    <Compile Include="Classes\BoeiCustomer.vb" />
+    <Compile Include="Classes\BoeiProduct.vb" />
+    <Compile Include="Crystal Reports\File\crpSupervisorSpecialist.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crpSupervisorSpecialist.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_CommissionAttachment2015.vb">
+      <DependentUpon>Report_CommissionAttachment2015.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_DSMCommissionWithRecovery2015.vb">
+      <DependentUpon>Report_DSMCommissionWithRecovery2015.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_DSMCommissionWithRecovery2014.vb">
+      <DependentUpon>Report_DSMCommissionWithRecovery2014.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery2015Combi2.vb">
+      <DependentUpon>Report_MedrepCommissionWithRecovery2015Combi2.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery2015Combi3.vb">
+      <DependentUpon>Report_MedrepCommissionWithRecovery2015Combi3.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery2015Combi.vb">
+      <DependentUpon>Report_MedrepCommissionWithRecovery2015Combi.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery2015.vb">
+      <DependentUpon>Report_MedrepCommissionWithRecovery2015.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery2014.vb">
+      <DependentUpon>Report_MedrepCommissionWithRecovery2014.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_CommissionAttachment2014.vb">
+      <DependentUpon>Report_CommissionAttachment2014.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_MdiSalesPerMedrepTrade1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Report_MdiSalesPerMedrepTrade.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery2015Combi1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Report_MedrepCommissionWithRecovery2015Combi.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_MercurySalesTrade.vb">
+      <DependentUpon>Report_MercurySalesTrade.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_CommissionAttachment.vb">
+      <DependentUpon>Report_CommissionAttachment.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_CommissionAttachmentKASGovt.vb">
+      <DependentUpon>Report_CommissionAttachmentKASGovt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_CommissionAttachmentMTD.vb">
+      <DependentUpon>Report_CommissionAttachmentMTD.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_CommissionAttachmentSpv.vb">
+      <DependentUpon>Report_CommissionAttachmentSpv.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_ControlTotals.vb">
+      <DependentUpon>Report_ControlTotals.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_CtSales.vb">
+      <DependentUpon>Report_CtSales.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_DSMCommission2008QX.vb">
+      <DependentUpon>Report_DSMCommission2008QX.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_DSMCommission2009_Chiral.vb">
+      <DependentUpon>Report_DSMCommission2009_Chiral.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_DSMCommission2010_Chiral.vb">
+      <DependentUpon>Report_DSMCommission2010_Chiral.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_DSMCommissionWithRecovery1.vb">
+      <DependentUpon>Report_DSMCommissionWithRecovery.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_DSMCommissionWithRecovery2008.vb">
+      <DependentUpon>Report_DSMCommissionWithRecovery2008.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_DSMCommissionWithRecovery2009.vb">
+      <DependentUpon>Report_DSMCommissionWithRecovery2009.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_DSMCommissionWithRecovery2009PP.vb">
+      <DependentUpon>Report_DSMCommissionWithRecovery2009PP.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_DSMCommissionWithRecovery2010.vb">
+      <DependentUpon>Report_DSMCommissionWithRecovery2010.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_DSMCommissionWithRecovery2010BioM.vb">
+      <DependentUpon>Report_DSMCommissionWithRecovery2010BioM.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_DSMCommissionWithRecovery2011.vb">
+      <DependentUpon>Report_DSMCommissionWithRecovery2011.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_DSMCommissionWithRecovery2012.vb">
+      <DependentUpon>Report_DSMCommissionWithRecovery2012.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_DSMCommissionWithRecovery20132.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Report_DSMCommissionWithRecovery2013.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_HiiMercurySales.vb">
+      <DependentUpon>Report_HiiMercurySales.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_HiiSalesPerTerritory.vb">
+      <DependentUpon>Report_HiiSalesPerTerritory.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_KASGovtCommission.vb">
+      <DependentUpon>Report_KASGovtCommission.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_MdiSalesPerMedrep%28Untagged%29.vb">
+      <DependentUpon>Report_MdiSalesPerMedrep%28Untagged%29.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_MdiSalesPerMedrep.vb">
+      <DependentUpon>Report_MdiSalesPerMedrep.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_MdiSalesPerMedrepFLT.vb">
+      <DependentUpon>Report_MdiSalesPerMedrepFLT.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_MdiSalesPerMedrepMH.vb">
+      <DependentUpon>Report_MdiSalesPerMedrepMH.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_MdiSalesPerMedrepMTD.vb">
+      <DependentUpon>Report_MdiSalesPerMedrepMTD.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_MedrepCommission.vb">
+      <DependentUpon>Report_MedrepCommission.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_MedrepCommission2008QX.vb">
+      <DependentUpon>Report_MedrepCommission2008QX.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_MedrepCommission2009_Chiral.vb">
+      <DependentUpon>Report_MedrepCommission2009_Chiral.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_MedrepCommission2010_Chiral.vb">
+      <DependentUpon>Report_MedrepCommission2010_Chiral.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_MedrepCommission2010_FLT.vb">
+      <DependentUpon>Report_MedrepCommission2010_FLT.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_MedrepCommission2010_MH.vb">
+      <DependentUpon>Report_MedrepCommission2010_MH.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery.vb">
+      <DependentUpon>Report_MedrepCommissionWithRecovery.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery2008.vb">
+      <DependentUpon>Report_MedrepCommissionWithRecovery2008.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery2009.vb">
+      <DependentUpon>Report_MedrepCommissionWithRecovery2009.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery2009P.vb">
+      <DependentUpon>Report_MedrepCommissionWithRecovery2009P.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery2010.vb">
+      <DependentUpon>Report_MedrepCommissionWithRecovery2010.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery2010BioM.vb">
+      <DependentUpon>Report_MedrepCommissionWithRecovery2010BioM.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery2011.vb">
+      <DependentUpon>Report_MedrepCommissionWithRecovery2011.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery2012.vb">
+      <DependentUpon>Report_MedrepCommissionWithRecovery2012.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_MedrepCommissionWithRecovery20132.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Report_MedrepCommissionWithRecovery2013.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_MercurySales.vb">
+      <DependentUpon>Report_MercurySales.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_MercurySalesMH.vb">
+      <DependentUpon>Report_MercurySalesMH.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_SalesPerKASGovt.vb">
+      <DependentUpon>Report_SalesPerKASGovt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_SMManagerASPComputation.vb">
+      <DependentUpon>Report_SMManagerASPComputation.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_SMManagerIncentiveComputation.vb">
+      <DependentUpon>Report_SMManagerIncentiveComputation.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_SMMgrSalesPerfomance.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Report_SMMgrSalesPerfomance.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_SMMgrIncentiveCompSummary.vb">
+      <DependentUpon>Report_SMMgrIncentiveCompSummary.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_TMHittingTarget.vb">
+      <DependentUpon>Report_TMHittingTarget.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_SupervisorCommission.vb">
+      <DependentUpon>Report_SupervisorCommission.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_YTDrecovery.vb">
+      <DependentUpon>Report_YTDrecovery.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_YTDrecoveryDSM.vb">
+      <DependentUpon>Report_YTDrecoveryDSM.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_YTDrecoveryDSMpush1.vb">
+      <DependentUpon>Report_YTDrecoveryDSMpush.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Report_YTDrecoveryPush.vb">
+      <DependentUpon>Report_YTDrecoveryPush.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Rpt_ActiveMB.vb">
+      <DependentUpon>Rpt_ActiveMB.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Rpt_CalenderizedDsmRank.vb">
+      <DependentUpon>Rpt_CalenderizedDsmRank.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Rpt_CalenderizedPmrRank.vb">
+      <DependentUpon>Rpt_CalenderizedPmrRank.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Rpt_PerformanceGeneric.vb">
+      <DependentUpon>Rpt_PerformanceGeneric.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Others\Rpt_PerformanceGeneric_Spv.vb">
+      <DependentUpon>Rpt_PerformanceGeneric_Spv.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Performance\Mercury Direct\Report_NSMAdjustedQty_Direct.vb">
+      <DependentUpon>Report_NSMAdjustedQty_Direct.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Performance\Mercury Direct\Report_NSMAdjustedSales_Direct.vb">
+      <DependentUpon>Report_NSMAdjustedSales_Direct.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Performance\Mercury Direct\Report_NSMOriginalQty_Direct.vb">
+      <DependentUpon>Report_NSMOriginalQty_Direct.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Performance\Mercury Direct\Report_NSMOriginalSales_Direct.vb">
+      <DependentUpon>Report_NSMOriginalSales_Direct.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Performance\Mercury Stock Transfer\Dsm\Report_DSMAdjustedQty_StockTransfer.vb">
+      <DependentUpon>Report_DSMAdjustedQty_StockTransfer.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Performance\Mercury Stock Transfer\Dsm\Report_DSMAdjustedSales_StockTransfer.vb">
+      <DependentUpon>Report_DSMAdjustedSales_StockTransfer.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Performance\Mercury Stock Transfer\Dsm\Report_DSMOriginalQty_StockTransfer.vb">
+      <DependentUpon>Report_DSMOriginalQty_StockTransfer.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Performance\Mercury Stock Transfer\Dsm\Report_DSMOriginalSales_StockTransfer.vb">
+      <DependentUpon>Report_DSMOriginalSales_StockTransfer.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Performance\Mercury Stock Transfer\Nsm\Report_NSMAdjustedQty_StockTransfer.vb">
+      <DependentUpon>Report_NSMAdjustedQty_StockTransfer.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Performance\Mercury Stock Transfer\Nsm\Report_NSMAdjustedSales_StockTransfer.vb">
+      <DependentUpon>Report_NSMAdjustedSales_StockTransfer.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Performance\Mercury Stock Transfer\Nsm\Report_NSMOriginalQty_StockTransfer.vb">
+      <DependentUpon>Report_NSMOriginalQty_StockTransfer.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Performance\Mercury Stock Transfer\Nsm\Report_NSMOriginalSales_StockTransfer.vb">
+      <DependentUpon>Report_NSMOriginalSales_StockTransfer.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Performance\Mercury Stock Transfer\Pmr\Report_AdjustedQty_StockTransfer.vb">
+      <DependentUpon>Report_AdjustedQty_StockTransfer.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Performance\Mercury Stock Transfer\Pmr\Report_AdjustedSales_StockTransfer.vb">
+      <DependentUpon>Report_AdjustedSales_StockTransfer.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Performance\Mercury Stock Transfer\Pmr\Report_OriginalQty_StockTransfer.vb">
+      <DependentUpon>Report_OriginalQty_StockTransfer.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\Performance\Mercury Stock Transfer\Pmr\Report_OriginalSales_StockTransfer.vb">
+      <DependentUpon>Report_OriginalSales_StockTransfer.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal Reports\OldReport_CommissionAttachment.vb">
+      <DependentUpon>OldReport_CommissionAttachment.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Data Sets\AfromComincRecover2009.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AfromComincRecover2009.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\Budget.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Budget.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\BudgetDirect_Show.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BudgetDirect_Show.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\BudgetMTD.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BudgetMTD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\ComIncRecover2008.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ComIncRecover2008.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\ComincRecover2009.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ComincRecover2009.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\ComincRecover2009.vb">
+      <DependentUpon>ComincRecover2009.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\ComIncRecover2015.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ComIncRecover2015.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\ComIncRecover2015.vb">
+      <DependentUpon>ComIncRecover2015.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\Customer.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Customer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\DistrictSalesManager.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DistrictSalesManager.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\dsComIncRecover.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsComIncRecover.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\dsCommissionAttachment.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCommissionAttachment.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\dsCustomers.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCustomers.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\dsEditIntegratedSales.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsEditIntegratedSales.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\dsHiiMedrep.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsHiiMedrep.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\dsHiiMrArea.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsHiiMrArea.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\dsHiiSupervisor.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsHiiSupervisor.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\Dsm.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Dsm.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\DSMCommission2008.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSMCommission2008.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\DSMCommission2009.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSMCommission2009.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\DSMCommission2013.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSMCommission2013.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\dsMdiSalesPerMedrep.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsMdiSalesPerMedrep.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\dsMdiSalesPerMedrep.vb">
+      <DependentUpon>dsMdiSalesPerMedrep.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\dsMedrepBudgetList.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsMedrepBudgetList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\dsMedrepCommission.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsMedrepCommission.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\dsMercurySales.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsMercurySales.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\dsSupervisorCommission.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSupervisorCommission.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\dsSupervisorCommissionDetails.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSupervisorCommissionDetails.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\dsYTDrecovery.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsYTDrecovery.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\IntegratedSales_Ds.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IntegratedSales_Ds.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\IntegratesSalesDS.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IntegratesSalesDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\Item.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Item.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\jpa_Performance_Current.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>jpa_Performance_Current.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\Medrep.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Medrep.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\MedrepList.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MedrepList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\NationalSalesManager.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NationalSalesManager.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\Nsm.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Nsm.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\Performance.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Performance.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\SalesAndTargets_Direct.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesAndTargets_Direct.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\SalesAndTargets_Transfer.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesAndTargets_Transfer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\SalesCategory.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesCategory.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\SDDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SDDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\SupervisorList.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SupervisorList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\Territory.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Territory.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Sets\utDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>utDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\DataSets\CodeTablesDS.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CodeTablesDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\DataSets\CodeTablesDS.vb">
+      <DependentUpon>CodeTablesDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\DataSets\CustomerType.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomerType.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\DataSets\DataSetSample.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetSample.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\DataSets\dsOrg.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsOrg.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\DataSets\MBactive.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MBactive.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\DataSets\MyDataSetDB.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyDataSetDB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\DataSets\MyDataSets.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyDataSets.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\DataSets\ProductsDS.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProductsDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\BudgetOsCT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\CallRateBudgetCT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\CallRateCT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\CompanyCT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\cOrgChrt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\CustomerCT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\CustomerTypeCT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\DistrictCT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\DivisionCT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\EditIntegratedSales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\EditIntegratedSalesMercury.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\frm4thKeyProducts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\frm5thKeyProducts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\frmDistrict.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\frmDistrictEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\frmDistrictSupervisorEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\frmDistrictSupervisorMaint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\frmDistrictSupervisorUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\frmDistrictUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\frmExCustomers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\frmExCustomersZue.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\frmKeyProducts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\frmPushProducts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\frmSMIncTemplate.Designer.vb">
+      <DependentUpon>frmSMIncTemplate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\frmSMIncTemplate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\frmSubKeyProduct.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\frmTerKeyProduct.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\frmUtility.Designer.vb">
+      <DependentUpon>frmUtility.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\frmUtility.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\GroupCT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\Idiv_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\Idsg_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\Insm_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\Ipc_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\Ipm_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\Iprin_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\ItemCT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\Itm_Entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\MedrepCT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\MedRepOldCT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\MercuryBranchCT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\MercuryItemCT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\ModTradDSM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\NsmCT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\PM_CT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\PrincipalCT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\ProductFormCT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\ProductLineCT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\ProductLinesCT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\ProvinceCT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\QpiTerritoryBudgetCT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\SupDiv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\SupervisorCT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\SupMr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\SupNSM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\TeamDivisionCT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\TerritoryAreaBrickEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\TerritoryAreaBrickUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\TerritoryAreaEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\TerritoryAreaMaint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\TerritoryAreaPMREntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\TerritoryAreaPMRUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\TerritoryAreaUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\TerritoryCT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Forms\User.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Modules\Public_Functions.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Reports\Calenderized\CallRate_CalenderizedDSM.vb">
+      <DependentUpon>CallRate_CalenderizedDSM.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Reports\Calenderized\CallRate_CalenderizedNSM.vb">
+      <DependentUpon>CallRate_CalenderizedNSM.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Reports\Calenderized\CallRate_CalenderizedPMR.vb">
+      <DependentUpon>CallRate_CalenderizedPMR.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Reports\Monthly\CallRate_MonthlyDSM.vb">
+      <DependentUpon>CallRate_MonthlyDSM.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Reports\Monthly\CallRate_MonthlyNSM.vb">
+      <DependentUpon>CallRate_MonthlyNSM.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Forms\Code Tables\New\Reports\Monthly\CallRate_MonthlyPMR.vb">
+      <DependentUpon>CallRate_MonthlyPMR.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Forms\Code Tables\Old\frmItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\Old\frmItemBrowse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\Old\frmSupMr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\Qpi\DataSets\dsQpiTerritory.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsQpiTerritory.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Code Tables\Qpi\DataSets\dsQpi_AreaAssign.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsQpi_AreaAssign.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Code Tables\Qpi\DataSets\dsQpi_SalesSummary.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsQpi_SalesSummary.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Code Tables\Qpi\Forms\frmQpiTerritory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\Qpi\Forms\frmQpiTerritoryAssignment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\Qpi\Forms\frmQpiTerritoryAssignment_Modify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code Tables\Qpi\Reports\Report_QpiMercurySales.vb">
+      <DependentUpon>Report_QpiMercurySales.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Forms\Code Tables\Qpi\Reports\Report_QpiSalesPerMedrep.vb">
+      <DependentUpon>Report_QpiSalesPerMedrep.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Forms\Code Tables\Qpi\Reports\Report_QpiSalesPerTerritory.vb">
+      <DependentUpon>Report_QpiSalesPerTerritory.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Forms\Code Tables\Qpi\Reports\Report_QpiSalesSummary.vb">
+      <DependentUpon>Report_QpiSalesSummary.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Forms\Common\DateRangeBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Common\frmCodDesc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Common\frmDesc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Common\frmDialogBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Common\LogIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Common\LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Common\Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Common\NewLogIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Common\TerriPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\File Maintenance\frmBudget.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\File Maintenance\frmBudgetDirect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\File Maintenance\frmBudgetDirectPerDistributor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\File Maintenance\frmBudgetDirectPerDistributorUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Budget\frmBudgetTransfers.Designer.vb">
+      <DependentUpon>frmBudgetTransfers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Budget\frmBudgetTransfers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Budget\frmTransferSPBudget.Designer.vb">
+      <DependentUpon>frmTransferSPBudget.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Budget\frmTransferSPBudget.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Common\frmLookUp.Designer.vb">
+      <DependentUpon>frmLookUp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Common\frmLookUp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Controls\frmSalesControl.Designer.vb">
+      <DependentUpon>frmSalesControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Controls\frmSalesControl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Controls\frmSalesDiscrepancy.Designer.vb">
+      <DependentUpon>frmSalesDiscrepancy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Controls\frmSalesDiscrepancy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Controls\frmUntagged.Designer.vb">
+      <DependentUpon>frmUntagged.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Controls\frmUntagged.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Controls\frmValidateBracco.Designer.vb">
+      <DependentUpon>frmValidateBracco.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Controls\frmValidateBracco.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\IntegratedSales\frmSplit.Designer.vb">
+      <DependentUpon>frmSplit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\IntegratedSales\frmSplit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\IntegratedSales\frmTransferSalesToSP.Designer.vb">
+      <DependentUpon>frmTransferSalesToSP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\IntegratedSales\frmTransferSalesToSP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\IntegratedSales\frmTransferSalesToTM.Designer.vb">
+      <DependentUpon>frmTransferSalesToTM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\IntegratedSales\frmTransferSalesToTM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\IntegratedSales\frmTransferToTSSP.Designer.vb">
+      <DependentUpon>frmTransferToTSSP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\IntegratedSales\frmTransferToTSSP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\IntegratedSales\frmUnCredit.Designer.vb">
+      <DependentUpon>frmUnCredit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\IntegratedSales\frmUnCredit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Maintenance\frmArea.Designer.vb">
+      <DependentUpon>frmArea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Maintenance\frmArea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Maintenance\frmDistrictAreaAreaPMR.Designer.vb">
+      <DependentUpon>frmDistrictAreaAreaPMR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Maintenance\frmDistrictAreaAreaPMR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Maintenance\frmResignedTM.Designer.vb">
+      <DependentUpon>frmResignedTM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Maintenance\frmResignedTM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Maintenance\frmResignedSpecialist.Designer.vb">
+      <DependentUpon>frmResignedSpecialist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Maintenance\frmResignedSpecialist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Maintenance\frmSegSegHead.Designer.vb">
+      <DependentUpon>frmSegSegHead.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Maintenance\frmSegSegHead.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\MercurySales\frmMercurySales.Designer.vb">
+      <DependentUpon>frmMercurySales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\MercurySales\frmMercurySales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\MercurySales\frmTransferMercuryTSSP.Designer.vb">
+      <DependentUpon>frmTransferMercuryTSSP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\MercurySales\frmTransferMercuryTSSP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\ProcessSubDist\frm518SubDist.Designer.vb">
+      <DependentUpon>frm518SubDist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\ProcessSubDist\frm518SubDist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\ProcessSubDist\frm518SubDistNew.Designer.vb">
+      <DependentUpon>frm518SubDistNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\ProcessSubDist\frm518SubDistNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\ProcessSubDist\frmRosePharmacy.Designer.vb">
+      <DependentUpon>frmRosePharmacy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\ProcessSubDist\frmRosePharmacy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\ProcessSubDist\frmSouthStarDrugNew.Designer.vb">
+      <DependentUpon>frmSouthStarDrugNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\ProcessSubDist\frmSouthStarDrugNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmAccountCoverage.Designer.vb">
+      <DependentUpon>frmAccountCoverage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmAccountCoverage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmAverageSellingPrice.Designer.vb">
+      <DependentUpon>frmAverageSellingPrice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmAverageSellingPrice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\ProcessSubDist\frmBarrXselSubDist.Designer.vb">
+      <DependentUpon>frmBarrXselSubDist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\ProcessSubDist\frmBarrXselSubDist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmBRReports.Designer.vb">
+      <DependentUpon>frmBRReports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmBRReports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Budget\frmBudgetForDirect.Designer.vb">
+      <DependentUpon>frmBudgetForDirect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Budget\frmBudgetForDirect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Budget\frmBudgetForSpecialist.Designer.vb">
+      <DependentUpon>frmBudgetForSpecialist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Budget\frmBudgetForSpecialist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\File Maintenance\frmBudgetItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\File Maintenance\frmBudgetPmr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\File Maintenance\frmBudgetPmrModernTrade.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\File Maintenance\frmDistributeReports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\File Maintenance\frmDivisionSub.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\File Maintenance\frmIMSbrick.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\File Maintenance\frmItemBudget2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\File Maintenance\frmMedrep.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\File Maintenance\frmMedrepBudgetList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\File Maintenance\frmMedRepTerryAssign.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\File Maintenance\frmMH_MRTerryAssign.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\File Maintenance\frmMyItemBrowse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\File Maintenance\frmQpiAreaAssign.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\File Maintenance\frmQPIareacode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Reports\frmReportViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Transactions\DataSets\dsMercuryData.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsMercuryData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Transactions\frmProcessCallRate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Transactions\frmProcessCallRateProduct.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Transactions\frmProcessInHouseData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Transactions\frmProcessInMarket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Transactions\frmProcessMdiData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Transactions\frmProcessMdiData_Daily.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Transactions\frmProcessMercuryData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Transactions\frmProcessMercuryDataSept.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Transactions\frmProcessProscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Transactions\frmProcessSubDistributorData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Transactions\frmProcessTradeReport.Designer.vb">
+      <DependentUpon>frmProcessTradeReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Transactions\frmProcessTradeReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmBudgetDirectReport.Designer.vb">
+      <DependentUpon>frmBudgetDirectReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmBudgetDirectReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmBudgetDirectSummary.Designer.vb">
+      <DependentUpon>frmBudgetDirectSummary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmBudgetDirectSummary.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmCalendarizedItemSales.Designer.vb">
+      <DependentUpon>frmCalendarizedItemSales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmCalendarizedItemSales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmCMReportPivot.Designer.vb">
+      <DependentUpon>frmCMReportPivot.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmCMReportPivot.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\ProcessSubDist\frmEditDataMapping.Designer.vb">
+      <DependentUpon>frmEditDataMapping.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\ProcessSubDist\frmEditDataMapping.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\ProcessSubDist\frmGBSubDist.Designer.vb">
+      <DependentUpon>frmGBSubDist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\ProcessSubDist\frmGBSubDist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Process\frmGenerateInvoiceList.Designer.vb">
+      <DependentUpon>frmGenerateInvoiceList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Process\frmGenerateInvoiceList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Process\frmGenerateNMPCSalesUpdate.Designer.vb">
+      <DependentUpon>frmGenerateNMPCSalesUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Process\frmGenerateNMPCSalesUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Process\frmDailySalesUpdateUtil.Designer.vb">
+      <DependentUpon>frmDailySalesUpdateUtil.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Process\frmDailySalesUpdateUtil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\ProcessSubDist\frmGloboSubDist.Designer.vb">
+      <DependentUpon>frmGloboSubDist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\ProcessSubDist\frmGloboSubDist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmCustomerReachDirect.Designer.vb">
+      <DependentUpon>frmCustomerReachDirect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmCustomerReachDirect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmIMSInhouseReport.Designer.vb">
+      <DependentUpon>frmIMSInhouseReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmIMSInhouseReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\IntegratedSales\frmIntegratedSales.Designer.vb">
+      <DependentUpon>frmIntegratedSales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\IntegratedSales\frmIntegratedSales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmItemSalesReportDirect.Designer.vb">
+      <DependentUpon>frmItemSalesReportDirect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmItemSalesReportDirect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmSalesMarketingIncentives.Designer.vb">
+      <DependentUpon>frmSalesMarketingIncentives.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmSalesMarketingIncentives.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmSalesPerformanceDirect.Designer.vb">
+      <DependentUpon>frmSalesPerformanceDirect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmSalesPerformanceDirect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmSalesTrendDirectMAT.Designer.vb">
+      <DependentUpon>frmSalesTrendDirectMAT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmSalesTrendDirectMAT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmSalesTrendDirectYTDver9.Designer.vb">
+      <DependentUpon>frmSalesTrendDirectYTDver9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmSalesTrendDirectYTDver9.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmSalesTrendDirectYTDVer10.Designer.vb">
+      <DependentUpon>frmSalesTrendDirectYTDVer10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmSalesTrendDirectYTDVer10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmSaleTrendDirectMATVer10.Designer.vb">
+      <DependentUpon>frmSaleTrendDirectMATVer10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmSaleTrendDirectMATVer10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmBudget2MonthsReport.Designer.vb">
+      <DependentUpon>frmBudget2MonthsReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmBudget2MonthsReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmBudgetMonthlyReport.Designer.vb">
+      <DependentUpon>frmBudgetMonthlyReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmBudgetMonthlyReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmCustomerReachStockTransfer.Designer.vb">
+      <DependentUpon>frmCustomerReachStockTransfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmCustomerReachStockTransfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmExtractBOIE.Designer.vb">
+      <DependentUpon>frmExtractBOIE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmExtractBOIE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmItemSalesReportStockTransfer.Designer.vb">
+      <DependentUpon>frmItemSalesReportStockTransfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmItemSalesReportStockTransfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmSalesPerformanceDirectMAT.Designer.vb">
+      <DependentUpon>frmSalesPerformanceDirectMAT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Direct\frmSalesPerformanceDirectMAT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmSalesPerformanceSPAward.Designer.vb">
+      <DependentUpon>frmSalesPerformanceSPAward.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmSalesPerformanceSPAward.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmSalesPerformanceSPAwardTrade.Designer.vb">
+      <DependentUpon>frmSalesPerformanceSPAwardTrade.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmSalesPerformanceSPAwardTrade.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmSalesPerformanceSPTM.Designer.vb">
+      <DependentUpon>frmSalesPerformanceSPTM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmSalesPerformanceSPTM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmSalesPerformanceSPTMMAT.Designer.vb">
+      <DependentUpon>frmSalesPerformanceSPTMMAT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmSalesPerformanceSPTMMAT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmSalesPerformanceSPTMTrade.Designer.vb">
+      <DependentUpon>frmSalesPerformanceSPTMTrade.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmSalesPerformanceSPTMTrade.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmSalesPerformanceSPTMTradeMonth.Designer.vb">
+      <DependentUpon>frmSalesPerformanceSPTMTradeMonth.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmSalesPerformanceSPTMTradeMonth.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmSalesPerformanceTMAward.Designer.vb">
+      <DependentUpon>frmSalesPerformanceTMAward.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmSalesPerformanceTMAward.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmSalesPerformanceTMAwardTrade.Designer.vb">
+      <DependentUpon>frmSalesPerformanceTMAwardTrade.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmSalesPerformanceTMAwardTrade.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmSalesTrendDirect.Designer.vb">
+      <DependentUpon>frmSalesTrendDirect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmSalesTrendDirect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\ProcessSubDist\frmSouthStarSubDist.Designer.vb">
+      <DependentUpon>frmSouthStarSubDist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\ProcessSubDist\frmSouthStarSubDist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\IntegratedSales\frmTransferSales.Designer.vb">
+      <DependentUpon>frmTransferSales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\IntegratedSales\frmTransferSales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmSalesTrendStockTransfer.Designer.vb">
+      <DependentUpon>frmSalesTrendStockTransfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmSalesTrendStockTransfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmSalesAndTargetsTransfer.Designer.vb">
+      <DependentUpon>frmSalesAndTargetsTransfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmSalesAndTargetsTransfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmSalesTrendStockTransfer2015.Designer.vb">
+      <DependentUpon>frmSalesTrendStockTransfer2015.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmSalesTrendStockTransfer2015.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmSalesTrendStockTransferMAT.Designer.vb">
+      <DependentUpon>frmSalesTrendStockTransferMAT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Utility\Reports\Stock Transfer\frmSalesTrendStockTransferMAT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\AdoDotNet.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\AreaPMRHelper.vb" />
+    <Compile Include="Modules\BOEIPdfHelper.vb" />
+    <Compile Include="Modules\ControlMaintenance.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\CustomerHelper.vb" />
+    <Compile Include="Modules\DataMaintenance.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\DataMapHelper.vb" />
+    <Compile Include="Modules\ExcelHelper.vb" />
+    <Compile Include="Modules\GovernmentLagundex.vb" />
+    <Compile Include="Modules\ItemHelper.vb" />
+    <Compile Include="Modules\ListHelper.vb" />
+    <Compile Include="Modules\LogHelper.vb" />
+    <Compile Include="Modules\modControlBehavior.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\modDeclarations.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\modDistributeReports.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\NewObjects.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\SalesControl.vb" />
+    <Compile Include="Modules\SMIncTemplate.vb" />
+    <Compile Include="Modules\SSDCustomer.vb" />
+    <Compile Include="Modules\StringHelper.vb" />
+    <Compile Include="Modules\SupMr.vb" />
+    <Compile Include="Modules\Utilities.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="MyClass\ItemBrowseClass.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MyClass\MyComboBoxIndex.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MyClass\MyTabPageClass.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyClass\MyTabpageClickEventArgs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MyControls\MyTabPageControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControls\MyTabPageControl1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyFunctions\MyPublicFunctions.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="New Business Logic Forms\About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New Business Logic Forms\CustomerShipToMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New Business Logic Forms\CustomerShipToMaster_Tagging.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New Business Logic Forms\DuplicateTransactions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New Business Logic Forms\MdiWeeklySalesInvoiceExport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New Business Logic Forms\MergedStockTransferExport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New Business Logic Forms\NewBusinessRuleMaintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New Business Logic Forms\NewCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New Business Logic Forms\NewItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New Business Logic Forms\SalesAdjustments.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Class Library\DataAccessLayer\My Project\" />
+    <Folder Include="Class Library\DataAccessLayer\obj\Debug\TempPE\" />
+    <Folder Include="Class Library\DataAccessLayer\obj\Debug\temp\" />
+    <Folder Include="Class Library\DataAccessLayer\obj\Release\TempPE\" />
+    <Folder Include="Class Library\DataAccessLayer\obj\Release\temp\" />
+    <Folder Include="Forms tmp 12152008\Transactions\DataSets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="bin\ScoresDotNet.exe">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="bin\ScoresDotNet.pdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Icon #218.ico">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Interop.Scripting">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

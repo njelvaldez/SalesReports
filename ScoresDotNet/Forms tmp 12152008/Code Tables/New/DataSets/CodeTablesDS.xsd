@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="CodeTablesDS" targetNamespace="http://tempuri.org/CodeTablesDS.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/CodeTablesDS.xsd" xmlns:mstns="http://tempuri.org/CodeTablesDS.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="CodeTablesDS" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="DivisionCT_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="DivCode" type="xs:string" />
+							<xs:element name="DivName" type="xs:string" />
+							<xs:element name="Manager" type="xs:string" minOccurs="0" />
+							<xs:element name="ShortName" type="xs:string" minOccurs="0" />
+							<xs:element name="CreateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="UpdateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Status" type="xs:string" minOccurs="0" />
+							<xs:element name="LastUser" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GroupCT_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="Code" type="xs:string" minOccurs="0" />
+							<xs:element name="Group" type="xs:string" minOccurs="0" />
+							<xs:element name="CreateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="UpdateDate" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ItemCT_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="ItemCode" type="xs:string" />
+							<xs:element name="ItemDesc" type="xs:string" />
+							<xs:element name="ItemUnit" type="xs:string" />
+							<xs:element name="UnitPrice" type="xs:decimal" />
+							<xs:element name="PrinCode" type="xs:string" />
+							<xs:element name="PrinName" type="xs:string" />
+							<xs:element name="Line" type="xs:string" minOccurs="0" />
+							<xs:element name="CreateDate" type="xs:dateTime" />
+							<xs:element name="UpdateDate" type="xs:dateTime" />
+							<xs:element name="Principal_Combo">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="PrinCode" type="xs:string" minOccurs="0" />
+										<xs:element name="PrinName" type="xs:string" minOccurs="0" />
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ProvinceCT_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="pro_code" type="xs:string" minOccurs="0" />
+							<xs:element name="province" type="xs:string" minOccurs="0" />
+							<xs:element name="region" type="xs:string" minOccurs="0" />
+							<xs:element name="CreateDate" type="xs:dateTime" />
+							<xs:element name="UpdateDate" type="xs:dateTime" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ProductLines_Combo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="description" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="MercuryBranchCT_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="BranchCode" type="xs:string" />
+							<xs:element name="BranchName" type="xs:string" />
+							<xs:element name="Address1" type="xs:string" />
+							<xs:element name="Address2" type="xs:string" />
+							<xs:element name="Address3" type="xs:string" />
+							<xs:element name="Territory" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="CreateDate" type="xs:dateTime" />
+							<xs:element name="UpdateDate" type="xs:dateTime" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Territory_Combo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="TerritoryDesc" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="territory" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="MercuryItemCT_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="MItemCode" type="xs:string" />
+							<xs:element name="Item" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="CreateDate" type="xs:dateTime" />
+							<xs:element name="UpdateDate" type="xs:dateTime" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Item_Combo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Item" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="itemdesc" type="xs:string" />
+							<xs:element name="SubKeyProduct_Show">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+										<xs:element name="TeamDivision" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+										<xs:element name="Line" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+										<xs:element name="Start_Date" type="xs:dateTime" minOccurs="0" />
+										<xs:element name="End_Date" type="xs:dateTime" minOccurs="0" />
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Division_Combo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Division" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Group_Combo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Group" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Province_Combo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Province" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="TerritoryCT_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="territorycode" type="xs:string" minOccurs="0" />
+							<xs:element name="prov_nav" type="xs:string" minOccurs="0" />
+							<xs:element name="territory" type="xs:string" minOccurs="0" />
+							<xs:element name="GroupDesc" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="Province" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="CreateDate" type="xs:dateTime" />
+							<xs:element name="UpdateDate" type="xs:dateTime" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="KeyProducts_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="TeamDivision" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="Line" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="Start_Date" type="xs:dateTime" />
+							<xs:element name="End_Date" type="xs:dateTime" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="TeamDivisionCT_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="Description" type="xs:string" minOccurs="0" />
+							<xs:element name="CreateDate" type="xs:dateTime" />
+							<xs:element name="UpdateDate" type="xs:dateTime" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ProductLinesCT_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="Division" type="xs:string" minOccurs="0" />
+							<xs:element name="Description" type="xs:string" minOccurs="0" />
+							<xs:element name="CreateDate" type="xs:dateTime" />
+							<xs:element name="UpdateDate" type="xs:dateTime" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="CustomerType_Combo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Type" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="CallRateBudgetCT_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Medrep" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="Target" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CommissionDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="CreateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="UpdateDate" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Medrep_Combo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Medrep" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="NsmCT_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="NsmCode" type="xs:string" minOccurs="0" />
+							<xs:element name="NsmName" type="xs:string" minOccurs="0" />
+							<xs:element name="Email" type="xs:string" minOccurs="0" />
+							<xs:element name="MobileNo" type="xs:string" minOccurs="0" />
+							<xs:element name="Hire_Date" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Resign_Date" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="CreateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="UpdateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="LastUser" type="xs:string" minOccurs="0" />
+							<xs:element name="DivCode" type="xs:string" minOccurs="0" />
+							<xs:element name="division" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="StartDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="EndDate" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="SuperDivCT_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="Supervisor" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="Division" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="StartDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="EndDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="CreateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="UpdateDate" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Supervisor_Combo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Supervisor" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="CallRateTransCT_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="Medrep" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="CallRate" type="xs:int" minOccurs="0" />
+							<xs:element name="Target" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Supervisor" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="NSM" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="Division" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="CommissionDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="CreateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="UpdateDate" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="QpiTerritoryBudgetCT_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="Territory" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="amount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="qty" type="xs:int" minOccurs="0" />
+							<xs:element name="Item" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="Medrep" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="createdate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="updatedate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="startdate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="enddate" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="DSm_Combo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Dsm" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="DsmName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="NSM_Combo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="NSMcode" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Customer_Combo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Customer" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="custname" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="CallRate_Calenderized">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Nsm" type="xs:string" minOccurs="0" />
+							<xs:element name="Dsm" type="xs:string" minOccurs="0" />
+							<xs:element name="Medrep" type="xs:string" minOccurs="0" />
+							<xs:element name="CallRate" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="Target" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CommissionDate" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="CallRate_Monthly">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Nsm" type="xs:string" minOccurs="0" />
+							<xs:element name="Dsm" type="xs:string" minOccurs="0" />
+							<xs:element name="Medrep" type="xs:string" minOccurs="0" />
+							<xs:element name="CallRate" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="Target" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="BudgetOsCT_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="Item" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="CommissionDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="CreateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="UpdateDate" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ItemCodTab_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="ItemCode" type="xs:string" />
+							<xs:element name="MetroDrugCode" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="MercuryItemCode" type="xs:string" minOccurs="0" />
+							<xs:element name="ItemDesc" type="xs:string" />
+							<xs:element name="GenericName" type="xs:string" minOccurs="0" />
+							<xs:element name="ItemUnit" type="xs:string" />
+							<xs:element name="UnitPrice" type="xs:decimal" />
+							<xs:element name="MercurySTPrice" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PrinCode" type="xs:string" minOccurs="0" />
+							<xs:element name="PrinName" type="xs:string" minOccurs="0" />
+							<xs:element name="DivCode" type="xs:string" minOccurs="0" />
+							<xs:element name="DivName" type="xs:string" minOccurs="0" />
+							<xs:element name="ProductLine" type="xs:string" minOccurs="0" />
+							<xs:element name="ProductForm" type="xs:string" minOccurs="0" />
+							<xs:element name="LaunchDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="InActiveDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Status" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PrincipalCodTab_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" type="xs:int" minOccurs="0" />
+							<xs:element name="PrinCode" type="xs:string" minOccurs="0" />
+							<xs:element name="PrinName" type="xs:string" minOccurs="0" />
+							<xs:element name="DivCode" type="xs:string" minOccurs="0" />
+							<xs:element name="Division" type="xs:string" minOccurs="0" />
+							<xs:element name="DivGroup" type="xs:string" minOccurs="0" />
+							<xs:element name="ShortName" type="xs:string" minOccurs="0" />
+							<xs:element name="CreateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="UpdateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Status" type="xs:string" minOccurs="0" />
+							<xs:element name="LastUser" type="xs:string" minOccurs="0" />
+							<xs:element name="StartDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="EndDate" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ProdManCT_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="PmCode" type="xs:string" minOccurs="0" />
+							<xs:element name="PmName" type="xs:string" minOccurs="0" />
+							<xs:element name="Email" type="xs:string" minOccurs="0" />
+							<xs:element name="MobileNo" type="xs:string" minOccurs="0" />
+							<xs:element name="Hire_Date" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Resign_Date" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="CreateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="UpdateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="LastUser" type="xs:string" minOccurs="0" />
+							<xs:element name="DivCode" type="xs:string" minOccurs="0" />
+							<xs:element name="division" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="StartDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="EndDate" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ItemPriceHist_DS_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" type="xs:int" minOccurs="0" />
+							<xs:element name="ItemCode" type="xs:string" minOccurs="0" />
+							<xs:element name="Start_Date" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="End_Date" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="SellingPrice" type="xs:double" minOccurs="0" />
+							<xs:element name="CreateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="UpdateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="LastUser" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ItemDivision_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" type="xs:int" minOccurs="0" />
+							<xs:element name="ItemCode" type="xs:string" minOccurs="0" />
+							<xs:element name="DivCode" type="xs:string" minOccurs="0" />
+							<xs:element name="DivName" type="xs:string" minOccurs="0" />
+							<xs:element name="StartDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="EndDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="CreateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="UpdateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="LastUser" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ItemPrincipal_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" type="xs:int" minOccurs="0" />
+							<xs:element name="ItemCode" type="xs:string" minOccurs="0" />
+							<xs:element name="PrinCode" type="xs:string" minOccurs="0" />
+							<xs:element name="PrinName" type="xs:string" minOccurs="0" />
+							<xs:element name="Start_Date" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="End_Date" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="CreateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="UpdateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="LastUser" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ItemNSM_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" type="xs:int" minOccurs="0" />
+							<xs:element name="ItemCode" type="xs:string" minOccurs="0" />
+							<xs:element name="NSMCode" type="xs:string" minOccurs="0" />
+							<xs:element name="NSMName" type="xs:string" minOccurs="0" />
+							<xs:element name="Start_Date" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="End_Date" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="CreateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="UpdateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="LastUser" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ItemProdMan_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" type="xs:int" minOccurs="0" />
+							<xs:element name="ItemCode" type="xs:string" minOccurs="0" />
+							<xs:element name="PMCode" type="xs:string" minOccurs="0" />
+							<xs:element name="PMName" type="xs:string" minOccurs="0" />
+							<xs:element name="Start_Date" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="End_Date" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="CreateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="UpdateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="LastUser" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="itmSP">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Itemdesc" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PM_Combo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PM" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="QpiTerritory_Combo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="TerritoryDesc" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="CustomerCodTab_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="rowid" type="xs:decimal" minOccurs="0" />
+							<xs:element name="custcode" type="xs:string" minOccurs="0" />
+							<xs:element name="custname" type="xs:string" minOccurs="0" />
+							<xs:element name="custtype" type="xs:string" minOccurs="0" />
+							<xs:element name="address1" type="xs:string" minOccurs="0" />
+							<xs:element name="address2" type="xs:string" minOccurs="0" />
+							<xs:element name="address3" type="xs:string" minOccurs="0" />
+							<xs:element name="areacode" type="xs:string" minOccurs="0" />
+							<xs:element name="territorydr" type="xs:string" minOccurs="0" />
+							<xs:element name="metro_code" type="xs:string" minOccurs="0" />
+							<xs:element name="createdate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="updatedate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="mdtype" type="xs:string" minOccurs="0" />
+							<xs:element name="qpiareacode" type="xs:string" minOccurs="0" />
+							<xs:element name="parentcustcode" type="xs:string" minOccurs="0" />
+							<xs:element name="lastuser" type="xs:string" minOccurs="0" />
+							<xs:element name="zuecode" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="QPIareaCode_Combo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="QareaCode" type="xs:string" minOccurs="0" />
+							<xs:element name="areaname" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ExcludeCustomerListCT_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" type="xs:int" minOccurs="0" />
+							<xs:element name="CustomerCode" type="xs:string" minOccurs="0" />
+							<xs:element name="CustomerName" type="xs:string" minOccurs="0" />
+							<xs:element name="SalesClass" type="xs:string" minOccurs="0" />
+							<xs:element name="SubSubSaleType" type="xs:string" minOccurs="0" />
+							<xs:element name="Start_Date" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="End_Date" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="CreateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="UpdateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="LastUser" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="CustLookup">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CustCode" type="xs:string" minOccurs="0" />
+							<xs:element name="CustName" type="xs:string" minOccurs="0" />
+							<xs:element name="Address1" type="xs:string" minOccurs="0" />
+							<xs:element name="Address2" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="QPIAC_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="AreaCode" type="xs:string" minOccurs="0" />
+							<xs:element name="AreaName" type="xs:string" minOccurs="0" />
+							<xs:element name="CreateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="UpdateDate" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="MedRepCT_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" type="xs:int" minOccurs="0" />
+							<xs:element name="MRcode" type="xs:string" minOccurs="0" />
+							<xs:element name="MRname" type="xs:string" minOccurs="0" />
+							<xs:element name="Hire_Date" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Resign_Date" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="CreateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="UpdateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Email" type="xs:string" minOccurs="0" />
+							<xs:element name="CompanyCode" type="xs:string" minOccurs="0" />
+							<xs:element name="Status" type="xs:string" minOccurs="0" />
+							<xs:element name="LastUser" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="SupervisorCT_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" type="xs:int" minOccurs="0" />
+							<xs:element name="SupCode" type="xs:string" minOccurs="0" />
+							<xs:element name="SupName" type="xs:string" minOccurs="0" />
+							<xs:element name="Hire_Date" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Resign_Date" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Email" type="xs:string" minOccurs="0" />
+							<xs:element name="Mobileno" type="xs:string" minOccurs="0" />
+							<xs:element name="CreateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="UpdateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="StartDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="EndDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="LastUser" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ItemDivSubGrp_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" type="xs:int" minOccurs="0" />
+							<xs:element name="ItemCode" type="xs:string" minOccurs="0" />
+							<xs:element name="DivCode" type="xs:string" minOccurs="0" />
+							<xs:element name="StartDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="EndDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="SubCode" type="xs:string" minOccurs="0" />
+							<xs:element name="DivSubGrp" type="xs:string" minOccurs="0" />
+							<xs:element name="CreateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="UpdateDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="LastUser" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="CodeTablesDSKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:DivisionCT_Show" />
+			<xs:field xpath="mstns:DivCode" />
+		</xs:unique>
+		<xs:unique name="CodeTablesDSKey2" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:GroupCT_Show" />
+			<xs:field xpath="mstns:Rowid" />
+		</xs:unique>
+		<xs:unique name="CodeTablesDSKey4" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:ProvinceCT_Show" />
+			<xs:field xpath="mstns:rowid" />
+		</xs:unique>
+		<xs:unique name="CodeTablesDSKey7" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:KeyProducts_Show" />
+			<xs:field xpath="mstns:Rowid" />
+		</xs:unique>
+		<xs:unique name="CodeTablesDSKey9" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:TeamDivisionCT_Show" />
+			<xs:field xpath="mstns:Rowid" />
+		</xs:unique>
+		<xs:unique name="CodeTablesDSKey10" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:ProductLinesCT_Show" />
+			<xs:field xpath="mstns:Rowid" />
+		</xs:unique>
+		<xs:unique name="CodeTablesDSKey8" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:SubKeyProduct_Show" />
+			<xs:field xpath="mstns:Rowid" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

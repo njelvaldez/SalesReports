@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="Territory" targetNamespace="http://tempuri.org/Territory.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/Territory.xsd" xmlns:mstns="http://tempuri.org/Territory.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Territory" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Territory_Browse">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="territory" type="xs:string" minOccurs="0" />
+							<xs:element name="provincedr" type="xs:decimal" minOccurs="0" />
+							<xs:element name="province" type="xs:string" minOccurs="0" />
+							<xs:element name="groupdr" type="xs:decimal" minOccurs="0" />
+							<xs:element name="group" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

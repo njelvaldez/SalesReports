@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="Performance" targetNamespace="http://tempuri.org/Performance.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/Performance.xsd" xmlns:mstns="http://tempuri.org/Performance.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Performance" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Performance_Generic">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CommissionDate" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="division" type="xs:string" minOccurs="0" />
+							<xs:element name="supcode" type="xs:string" minOccurs="0" />
+							<xs:element name="supname" type="xs:string" />
+							<xs:element name="mrcode" type="xs:string" />
+							<xs:element name="mrname" type="xs:string" />
+							<xs:element name="TargetAmount" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="SoldAmount" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Performance_Calenderized">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="CommissionDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Division" type="xs:string" minOccurs="0" />
+							<xs:element name="SupCode" type="xs:string" minOccurs="0" />
+							<xs:element name="SupName" type="xs:string" minOccurs="0" />
+							<xs:element name="MrCode" type="xs:string" minOccurs="0" />
+							<xs:element name="MrName" type="xs:string" minOccurs="0" />
+							<xs:element name="TargetAmount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="SoldAmount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="intMo" type="xs:int" minOccurs="0" />
+							<xs:element name="intMoDsm" type="xs:int" minOccurs="0" />
+							<xs:element name="TargetPmr" type="xs:decimal" minOccurs="0" />
+							<xs:element name="SalesPmr" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TargetDsm" type="xs:decimal" minOccurs="0" />
+							<xs:element name="SalesDsm" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AsOf" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

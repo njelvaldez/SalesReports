@@ -1,0 +1,3526 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ScoresDotNet
+</name>
+</assembly>
+<members>
+<member name="T:ScoresDotNet.dsComIncRecover.MedrepCommission_DetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsComIncRecover.Dsm_PmrDetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsComIncRecover.ComIncRecoverDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsComIncRecover.DSM_CommissionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsComIncRecover.MedrepCommission_DetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsComIncRecover.Dsm_PmrDetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsComIncRecover.ComIncRecoverRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsComIncRecover.DSM_CommissionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsComIncRecover.MedrepCommission_DetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsComIncRecover.Dsm_PmrDetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsComIncRecover.ComIncRecoverRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsComIncRecover.DSM_CommissionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsComIncRecover">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.DSMCommission2009.DSM_Comm2009DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.DSMCommission2009.Dsm_PmrDetails2009DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.DSMCommission2009.DSM_Comm2009ChiralDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.DSMCommission2009.Chiral2009_SalesTargetDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.DSMCommission2009.DSM_Comm2009Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.DSMCommission2009.Dsm_PmrDetails2009Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.DSMCommission2009.DSM_Comm2009ChiralRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.DSMCommission2009.Chiral2009_SalesTargetRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.DSMCommission2009.DSM_Comm2009RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.DSMCommission2009.Dsm_PmrDetails2009RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.DSMCommission2009.DSM_Comm2009ChiralRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.DSMCommission2009.Chiral2009_SalesTargetRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.DSMCommission2009">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.IntegratedSales.IntegratedSalesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.IntegratedSales.IntegratedSalesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.IntegratedSales.IntegratedSalesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.IntegratedSales">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.MedrepList.SelectMedrepsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MedrepList.SelectMedrepsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MedrepList.SelectMedrepsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MedrepList">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.Customer.Customer_BrowseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.Customer.Customer_BrowseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.Customer.Customer_BrowseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.Customer">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.dsCommissionAttachment.REPORT_CommissionAttachmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsCommissionAttachment.REPORT_CommissionAttachment2009DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsCommissionAttachment.REPORT_CommissionAttachment2009ChiralDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsCommissionAttachment.REPORT_CommissionAttachment2008ChiralDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsCommissionAttachment.REPORT_CommissionAttachmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsCommissionAttachment.REPORT_CommissionAttachment2009Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsCommissionAttachment.REPORT_CommissionAttachment2009ChiralRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsCommissionAttachment.REPORT_CommissionAttachment2008ChiralRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsCommissionAttachment.REPORT_CommissionAttachmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsCommissionAttachment.REPORT_CommissionAttachment2009RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsCommissionAttachment.REPORT_CommissionAttachment2009ChiralRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsCommissionAttachment.REPORT_CommissionAttachment2008ChiralRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsCommissionAttachment">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.dsEditIntegratedSales.TerritoryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsEditIntegratedSales.ProvinceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsEditIntegratedSales.GroupDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsEditIntegratedSales.MedRepDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsEditIntegratedSales.SupervisorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsEditIntegratedSales.DivisionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsEditIntegratedSales.PrincipalDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsEditIntegratedSales.ControlTotalsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsEditIntegratedSales.TerritoryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsEditIntegratedSales.ProvinceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsEditIntegratedSales.GroupRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsEditIntegratedSales.MedRepRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsEditIntegratedSales.SupervisorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsEditIntegratedSales.DivisionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsEditIntegratedSales.PrincipalRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsEditIntegratedSales.ControlTotalsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsEditIntegratedSales.TerritoryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsEditIntegratedSales.ProvinceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsEditIntegratedSales.GroupRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsEditIntegratedSales.MedRepRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsEditIntegratedSales.SupervisorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsEditIntegratedSales.DivisionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsEditIntegratedSales.PrincipalRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsEditIntegratedSales.ControlTotalsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsEditIntegratedSales">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.DataSetSample">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.DistrictSalesManager.Dsm_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.DistrictSalesManager.Dsm_ShowPerDivisionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.DistrictSalesManager.Dsm_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.DistrictSalesManager.Dsm_ShowPerDivisionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.DistrictSalesManager.Dsm_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.DistrictSalesManager.Dsm_ShowPerDivisionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.DistrictSalesManager">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.dsMdiSalesPerMedrep.REPORT_MdiSalesPerMedrepDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsMdiSalesPerMedrep.REPORT_QpiSalesPerTerritoryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsMdiSalesPerMedrep.REPORT_MdiSalesPerMedrepRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsMdiSalesPerMedrep.REPORT_QpiSalesPerTerritoryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsMdiSalesPerMedrep.REPORT_MdiSalesPerMedrepRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsMdiSalesPerMedrep.REPORT_QpiSalesPerTerritoryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsMdiSalesPerMedrep">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.dsMercurySales.tempory_mercuryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsMercurySales.tempory_mercuryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsMercurySales.tempory_mercuryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsMercurySales">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.dsSupervisorCommissionDetails.SupervisorCommissionDetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsSupervisorCommissionDetails.SupervisorCommissionDetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsSupervisorCommissionDetails.SupervisorCommissionDetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsSupervisorCommissionDetails">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.jpa_Performance_Current.jpa_Performance_CurrentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.jpa_Performance_Current.jpa_Performance_CurrentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.jpa_Performance_Current.jpa_Performance_CurrentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.jpa_Performance_Current">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.ComincRecover2009.MedrepCommission_Details2009DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.ComincRecover2009.ChiralPMR_2009SaleTargetDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.ComincRecover2009.MHpmr_2010SaleTargetDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.ComincRecover2009.ComIncRecoverDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.ComincRecover2009.MedrepCommission_Details2009Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.ComincRecover2009.ChiralPMR_2009SaleTargetRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.ComincRecover2009.MHpmr_2010SaleTargetRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.ComincRecover2009.ComIncRecoverRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.ComincRecover2009.MedrepCommission_Details2009RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.ComincRecover2009.ChiralPMR_2009SaleTargetRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.ComincRecover2009.MHpmr_2010SaleTargetRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.ComincRecover2009.ComIncRecoverRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.ComincRecover2009">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.dsOrg.cDivision_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsOrg.cDivision_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsOrg.cDivision_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsOrg">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.dsSupervisor.SupervisorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsSupervisor.SupervisorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsSupervisor.SupervisorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsSupervisor">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.dsMedrepCommission.REPORT_MedrepCommissionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsMedrepCommission.REPORT_MedrepCommissionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsMedrepCommission.REPORT_MedrepCommissionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsMedrepCommission">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.dsSupervisorCommission.REPORT_SupervisorCommissionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsSupervisorCommission.REPORT_SupervisorCommissionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsSupervisorCommission.REPORT_SupervisorCommissionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsSupervisorCommission">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet._Item._ItemDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet._Item.Item_BrowseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet._Item._ItemRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet._Item.Item_BrowseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet._Item._ItemRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet._Item.Item_BrowseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet._Item">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.SalesForceList.SelectSupervisorsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.SalesForceList.SelectSupervisorsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.SalesForceList.SelectSupervisorsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.SalesForceList">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.ProductsDS.KeyProducts4th_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.ProductsDS.KeyProducts5th_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.ProductsDS.KeyProducts4th_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.ProductsDS.KeyProducts5th_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.ProductsDS.KeyProducts4th_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.ProductsDS.KeyProducts5th_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.ProductsDS">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.DSMCommission2008.DSM_Comm2008DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.DSMCommission2008.DSM_Comm2008Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.DSMCommission2008.DSM_Comm2008RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.DSMCommission2008">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.dsYTDrecovery.YTDrecoveryTabDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsYTDrecovery.YTDrecoveryTabDSMDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsYTDrecovery.YTDrecoveryTabRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsYTDrecovery.YTDrecoveryTabDSMRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsYTDrecovery.YTDrecoveryTabRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsYTDrecovery.YTDrecoveryTabDSMRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsYTDrecovery">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.IntegratedSales_Ds.IntegratedSales_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.IntegratedSales_Ds.IntegratedSales_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.IntegratedSales_Ds.IntegratedSales_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.IntegratedSales_Ds">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.SalesCategory.SalesClass_BrowseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.SalesCategory.SaleType_BrowseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.SalesCategory.SubSaleType_BrowseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.SalesCategory.SubSubSaleType_BrowseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.SalesCategory.SalesClass_BrowseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.SalesCategory.SaleType_BrowseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.SalesCategory.SubSaleType_BrowseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.SalesCategory.SubSubSaleType_BrowseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.SalesCategory.SalesClass_BrowseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.SalesCategory.SaleType_BrowseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.SalesCategory.SubSaleType_BrowseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.SalesCategory.SubSubSaleType_BrowseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.SalesCategory">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.DivisionCT_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.GroupCT_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ItemCT_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.Principal_ComboDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ProvinceCT_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ProductLines_ComboDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.Territory_ComboDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.Item_ComboDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.SubKeyProduct_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.Division_ComboDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.Group_ComboDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.Province_ComboDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.KeyProducts_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.TeamDivisionCT_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ProductLines_CT_Show_oldDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.CustomerType_ComboDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.CallRateBudgetCT_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.Medrep_ComboDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.NsmCT_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.SuperDivCT_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.Supervisor_ComboDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.CallRateTransCT_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.QpiTerritoryBudgetCT_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.DSm_ComboDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.NSM_ComboDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.Customer_ComboDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.CallRate_CalenderizedDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.CallRate_MonthlyDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.BudgetOsCT_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ItemCodTab_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.PrincipalCodTab_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ProdManCT_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ItemPriceHist_DS_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ItemDivision_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ItemPrincipal_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ItemNSM_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ItemProdMan_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.itmSPDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.PM_ComboDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.QpiTerritory_ComboDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.CustomerCodTab_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.QPIareaCode_ComboDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ExcludeCustomerListCT_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.CustLookupDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.QPIAC_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.MedRepCT_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.SupervisorCT_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ItemDivSubGrp_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_listDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_division_nameDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_per_status_listDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_code_listDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_name_listDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_supervisor_listDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_company_nameDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_dim_code_listDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_division_name_listDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_supervisor_deleteDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_start_dateDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_end_dateDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_supervisor_nameDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_get_max_end_dateDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_get_max_supervisor_nameDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_get_max_start_dateDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_get_district_max_end_dateDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_supervisor_delete2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_supervisor_per_statusDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_listDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_brick_listDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_pmr_listDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_selectionsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_division_selectionsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_deleteDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_principal_selectionsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_territory_selectionsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_med_rep_selectionsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_brick_deleteDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_start_dateDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_brick_start_dateDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_pmr_deleteDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_pmr_start_dateDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_year_selectionsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_list_per_yearDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_budget_direct_yearDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_budget_direct_monthDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_item_listDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_total_qty_per_monthDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_total_amt_per_monthDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_total_amt_per_ytdDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.v_distributor_item_selectionsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_distributor_listDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_v_item_listDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_distributorbudgetdirect_listDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ProductLineCT_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.DivisionCT_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.GroupCT_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ItemCT_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.Principal_ComboRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ProvinceCT_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ProductLines_ComboRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.Territory_ComboRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.Item_ComboRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.SubKeyProduct_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.Division_ComboRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.Group_ComboRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.Province_ComboRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.KeyProducts_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.TeamDivisionCT_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ProductLines_CT_Show_oldRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.CustomerType_ComboRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.CallRateBudgetCT_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.Medrep_ComboRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.NsmCT_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.SuperDivCT_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.Supervisor_ComboRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.CallRateTransCT_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.QpiTerritoryBudgetCT_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.DSm_ComboRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.NSM_ComboRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.Customer_ComboRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.CallRate_CalenderizedRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.CallRate_MonthlyRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.BudgetOsCT_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ItemCodTab_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.PrincipalCodTab_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ProdManCT_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ItemPriceHist_DS_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ItemDivision_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ItemPrincipal_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ItemNSM_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ItemProdMan_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.itmSPRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.PM_ComboRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.QpiTerritory_ComboRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.CustomerCodTab_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.QPIareaCode_ComboRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ExcludeCustomerListCT_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.CustLookupRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.QPIAC_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.MedRepCT_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.SupervisorCT_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ItemDivSubGrp_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_listRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_division_nameRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_per_status_listRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_code_listRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_name_listRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_supervisor_listRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_company_nameRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_dim_code_listRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_division_name_listRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_supervisor_deleteRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_start_dateRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_end_dateRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_supervisor_nameRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_get_max_end_dateRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_get_max_supervisor_nameRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_get_max_start_dateRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_get_district_max_end_dateRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_supervisor_delete2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_supervisor_per_statusRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_listRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_brick_listRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_pmr_listRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_selectionsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_division_selectionsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_deleteRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_principal_selectionsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_territory_selectionsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_med_rep_selectionsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_brick_deleteRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_start_dateRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_brick_start_dateRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_pmr_deleteRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_pmr_start_dateRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_year_selectionsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_list_per_yearRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_budget_direct_yearRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_budget_direct_monthRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_item_listRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_total_qty_per_monthRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_total_amt_per_monthRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_total_amt_per_ytdRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.v_distributor_item_selectionsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_distributor_listRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_v_item_listRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_distributorbudgetdirect_listRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ProductLineCT_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.DivisionCT_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.GroupCT_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ItemCT_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.Principal_ComboRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ProvinceCT_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ProductLines_ComboRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.Territory_ComboRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.Item_ComboRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.SubKeyProduct_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.Division_ComboRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.Group_ComboRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.Province_ComboRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.KeyProducts_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.TeamDivisionCT_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ProductLines_CT_Show_oldRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.CustomerType_ComboRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.CallRateBudgetCT_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.Medrep_ComboRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.NsmCT_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.SuperDivCT_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.Supervisor_ComboRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.CallRateTransCT_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.QpiTerritoryBudgetCT_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.DSm_ComboRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.NSM_ComboRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.Customer_ComboRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.CallRate_CalenderizedRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.CallRate_MonthlyRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.BudgetOsCT_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ItemCodTab_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.PrincipalCodTab_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ProdManCT_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ItemPriceHist_DS_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ItemDivision_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ItemPrincipal_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ItemNSM_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ItemProdMan_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.itmSPRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.PM_ComboRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.QpiTerritory_ComboRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.CustomerCodTab_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.QPIareaCode_ComboRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ExcludeCustomerListCT_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.CustLookupRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.QPIAC_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.MedRepCT_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.SupervisorCT_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ItemDivSubGrp_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_listRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_division_nameRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_per_status_listRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_code_listRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_name_listRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_supervisor_listRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_company_nameRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_dim_code_listRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_division_name_listRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_supervisor_deleteRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_start_dateRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_end_dateRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_supervisor_nameRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_get_max_end_dateRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_get_max_supervisor_nameRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_get_max_start_dateRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_get_district_max_end_dateRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_supervisor_delete2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_supervisor_per_statusRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_listRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_brick_listRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_pmr_listRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_district_selectionsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_division_selectionsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_deleteRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_principal_selectionsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_territory_selectionsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_med_rep_selectionsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_brick_deleteRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_start_dateRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_brick_start_dateRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_pmr_deleteRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_pmr_start_dateRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_year_selectionsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_area_list_per_yearRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_budget_direct_yearRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_budget_direct_monthRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_item_listRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_total_qty_per_monthRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_total_amt_per_monthRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_total_amt_per_ytdRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.v_distributor_item_selectionsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_distributor_listRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_v_item_listRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.sp_distributorbudgetdirect_listRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS.ProductLineCT_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CodeTablesDS">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.ItemDivisionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.DivNameDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.ItemDescDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.datetabDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.QAreaAssignA_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.QAreaAssignP_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.MRcomboDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.QAreaAssign_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.GenericQryProcDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.SupMR_Show5DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.SupMR_ShowDSMDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.SupMR_ShowPMRDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.TeamDivision_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.ActDivision_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.MRterri_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.MRterriT_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.MRterriP_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.MRcombo2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.BudgetDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.YearDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.LineItemDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.ItemBDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.ItemBudgetDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.Sup_Div_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.Sup_NSM_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.NSM_ComboDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.Div_ComboDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.DivSubGrp_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.DivSubGrp_ComboDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.IsMercCTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.UserTabCT_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.TerKeyProduct_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.IMSB_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.TerritoryLstDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.ExcludeCustomerZue_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.cboListDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.dg4listDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.IsCT_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.dtCodDescDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.MercuryBranchCT_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.MercuryItemCT_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.TerritoryCT_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.ProductLinesCT_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.terCodDescDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.PushProducts_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.CompanyCT_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.DistrictCT_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.MH_MRterri_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.MH_MRterriT_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.MH_MRterriP_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.ItemDivisionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.DivNameRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.ItemDescRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.datetabRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.QAreaAssignA_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.QAreaAssignP_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.MRcomboRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.QAreaAssign_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.GenericQryProcRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.SupMR_Show5Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.SupMR_ShowDSMRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.SupMR_ShowPMRRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.TeamDivision_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.ActDivision_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.MRterri_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.MRterriT_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.MRterriP_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.MRcombo2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.BudgetRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.YearRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.LineItemRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.ItemBRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.ItemBudgetRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.Sup_Div_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.Sup_NSM_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.NSM_ComboRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.Div_ComboRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.DivSubGrp_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.DivSubGrp_ComboRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.IsMercCTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.UserTabCT_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.TerKeyProduct_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.IMSB_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.TerritoryLstRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.ExcludeCustomerZue_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.cboListRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.dg4listRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.IsCT_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.dtCodDescRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.MercuryBranchCT_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.MercuryItemCT_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.TerritoryCT_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.ProductLinesCT_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.terCodDescRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.PushProducts_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.CompanyCT_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.DistrictCT_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.MH_MRterri_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.MH_MRterriT_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.MH_MRterriP_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.ItemDivisionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.DivNameRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.ItemDescRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.datetabRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.QAreaAssignA_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.QAreaAssignP_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.MRcomboRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.QAreaAssign_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.GenericQryProcRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.SupMR_Show5RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.SupMR_ShowDSMRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.SupMR_ShowPMRRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.TeamDivision_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.ActDivision_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.MRterri_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.MRterriT_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.MRterriP_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.MRcombo2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.BudgetRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.YearRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.LineItemRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.ItemBRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.ItemBudgetRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.Sup_Div_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.Sup_NSM_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.NSM_ComboRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.Div_ComboRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.DivSubGrp_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.DivSubGrp_ComboRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.IsMercCTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.UserTabCT_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.TerKeyProduct_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.IMSB_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.TerritoryLstRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.ExcludeCustomerZue_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.cboListRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.dg4listRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.IsCT_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.dtCodDescRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.MercuryBranchCT_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.MercuryItemCT_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.TerritoryCT_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.ProductLinesCT_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.terCodDescRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.PushProducts_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.CompanyCT_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.DistrictCT_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.MH_MRterri_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.MH_MRterriT_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB.MH_MRterriP_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSetDB">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.AfromComincRecover2009.DSM_Commission2009DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.AfromComincRecover2009.Dsm_PmrDetails2009DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.AfromComincRecover2009.DSM_Commission2009Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.AfromComincRecover2009.Dsm_PmrDetails2009Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.AfromComincRecover2009.DSM_Commission2009RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.AfromComincRecover2009.Dsm_PmrDetails2009RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.AfromComincRecover2009">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.BudgetMTD.LineItemDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.BudgetMTD.BudgetDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.BudgetMTD.MedrepListDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.BudgetMTD.YearDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.BudgetMTD.LineItemRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.BudgetMTD.BudgetRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.BudgetMTD.MedrepListRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.BudgetMTD.YearRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.BudgetMTD.LineItemRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.BudgetMTD.BudgetRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.BudgetMTD.MedrepListRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.BudgetMTD.YearRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.BudgetMTD">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.dsQpi_AreaAssign.QpiAreaAssign_MedrepShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsQpi_AreaAssign.QpiAreaAssign_TerritoryShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsQpi_AreaAssign.QpiAreaAssign_TableShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsQpi_AreaAssign.QpiAreaAssign_MedrepShow1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsQpi_AreaAssign.QpiAreaAssign_TerritoryShow1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsQpi_AreaAssign.QpiAreaAssign_MedrepShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsQpi_AreaAssign.QpiAreaAssign_TerritoryShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsQpi_AreaAssign.QpiAreaAssign_TableShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsQpi_AreaAssign.QpiAreaAssign_MedrepShow1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsQpi_AreaAssign.QpiAreaAssign_TerritoryShow1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsQpi_AreaAssign.QpiAreaAssign_MedrepShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsQpi_AreaAssign.QpiAreaAssign_TerritoryShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsQpi_AreaAssign.QpiAreaAssign_TableShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsQpi_AreaAssign.QpiAreaAssign_MedrepShow1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsQpi_AreaAssign.QpiAreaAssign_TerritoryShow1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsQpi_AreaAssign">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="P:ScoresDotNet.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ScoresDotNet.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:ScoresDotNet.My.Resources.Resources.Actions_contact_new_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ScoresDotNet.My.Resources.Resources.Alarm_Arrow_Left_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ScoresDotNet.My.Resources.Resources.Alarm_Tick_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ScoresDotNet.My.Resources.Resources.Alarm_Tick_icon1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ScoresDotNet.My.Resources.Resources.calendar_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ScoresDotNet.My.Resources.Resources.Check_2_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ScoresDotNet.My.Resources.Resources.checkred">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ScoresDotNet.My.Resources.Resources.DailySalesSummarybyItem">
+	<summary>
+  Looks up a localized string similar to select a.divisiondesc,b.oldmdicode, c.itemdesc + ' ' + c.itemunit,sum(qtysold), sum(qtyfree),sum(amountsold)
+from integratedsales a
+inner join (select distinct itemcode, oldmdicode from metrodrugitem where oldmdicode is not null) b on a.itemcode = b.itemcode
+inner join newscores.. item c on a.itemcode = c.itemcode 
+where salescycledate = '1/1/9999' and salesclass = 'MIC' and saletype in ('mic') 
+group by a.divisiondesc,b.oldmdicode, c.itemdesc + ' ' + c.itemunit
+order by a.divisiondesc,b.oldmdicode, c [rest of string was truncated]";.
+</summary>
+</member><member name="P:ScoresDotNet.My.Resources.Resources.door_out_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ScoresDotNet.My.Resources.Resources.door_out_icon1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ScoresDotNet.My.Resources.Resources.door_out_icon2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ScoresDotNet.My.Resources.Resources.edit">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ScoresDotNet.My.Resources.Resources.Excel_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ScoresDotNet.My.Resources.Resources.file_copy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ScoresDotNet.My.Resources.Resources.file_copy__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ScoresDotNet.My.Resources.Resources.filter">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ScoresDotNet.My.Resources.Resources.Gear_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ScoresDotNet.My.Resources.Resources.Math_minus_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ScoresDotNet.My.Resources.Resources.save">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ScoresDotNet.My.Resources.Resources.Search_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ScoresDotNet.My.Resources.Resources.summary_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ScoresDotNet.My.Resources.Resources.table_sum_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:ScoresDotNet.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:ScoresDotNet.ComIncRecover2015.MedrepCommission_Details2009DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.ComIncRecover2015.ComIncRecoverOldDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.ComIncRecover2015.ComIncRecoverDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.ComIncRecover2015.MedrepCommission_Details2009Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.ComIncRecover2015.ComIncRecoverOldRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.ComIncRecover2015.ComIncRecoverRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.ComIncRecover2015.MedrepCommission_Details2009RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.ComIncRecover2015.ComIncRecoverOldRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.ComIncRecover2015.ComIncRecoverRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.ComIncRecover2015">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.ComIncRecover2015TableAdapters.MedrepCommission_Details2009TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ScoresDotNet.ComIncRecover2015TableAdapters.ComIncRecoverOldTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ScoresDotNet.ComIncRecover2015TableAdapters.ComIncRecoverTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ScoresDotNet.ComIncRecover2015TableAdapters.TableAdapterManager.UpdateUpdatedRows(ScoresDotNet.ComIncRecover2015,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ScoresDotNet.ComIncRecover2015TableAdapters.TableAdapterManager.UpdateInsertedRows(ScoresDotNet.ComIncRecover2015,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ScoresDotNet.ComIncRecover2015TableAdapters.TableAdapterManager.UpdateDeletedRows(ScoresDotNet.ComIncRecover2015,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ScoresDotNet.ComIncRecover2015TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ScoresDotNet.ComIncRecover2015TableAdapters.TableAdapterManager.UpdateAll(ScoresDotNet.ComIncRecover2015)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ScoresDotNet.ComIncRecover2015TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ScoresDotNet.ComIncRecover2015TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ScoresDotNet.ComIncRecover2015TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ScoresDotNet.Dsm.Dsm_BrowseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.Dsm.Dsm_BrowseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.Dsm.Dsm_BrowseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.Dsm">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.Medrep.Pmr_BrowseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.Medrep.Pmr_BrowseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.Medrep.Pmr_BrowseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.Medrep">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.ComIncRecover2008.DSM_Commission2008DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.ComIncRecover2008.Dsm_PmrDetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.ComIncRecover2008.ComIncRecoverDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.ComIncRecover2008.MedrepCommission_DetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.ComIncRecover2008.DSM_Commission2008Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.ComIncRecover2008.Dsm_PmrDetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.ComIncRecover2008.ComIncRecoverRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.ComIncRecover2008.MedrepCommission_DetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.ComIncRecover2008.DSM_Commission2008RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.ComIncRecover2008.Dsm_PmrDetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.ComIncRecover2008.ComIncRecoverRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.ComIncRecover2008.MedrepCommission_DetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.ComIncRecover2008">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.Nsm.Nsm_BrowseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.Nsm.CtSales_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.Nsm.Nsm_BrowseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.Nsm.CtSales_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.Nsm.Nsm_BrowseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.Nsm.CtSales_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.Nsm">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.Territory.Territory_BrowseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.Territory.Territory_BrowseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.Territory.Territory_BrowseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.Territory">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.BudgetDirect_Show.BudgetDirect_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.BudgetDirect_Show.BudgetDirect_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.BudgetDirect_Show.BudgetDirect_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.BudgetDirect_Show">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.dsMedrepBudgetList.MedRepBudgetListDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsMedrepBudgetList.MedRepBudgetAmountsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsMedrepBudgetList.MedRepBudgetListRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsMedrepBudgetList.MedRepBudgetAmountsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsMedrepBudgetList.MedRepBudgetListRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsMedrepBudgetList.MedRepBudgetAmountsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsMedrepBudgetList">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.Performance.Performance_GenericDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.Performance.Performance_CalenderizedDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.Performance.Performance_GenericRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.Performance.Performance_CalenderizedRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.Performance.Performance_GenericRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.Performance.Performance_CalenderizedRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.Performance">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.NationalSalesManager.Nsm_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.NationalSalesManager.Nsm_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.NationalSalesManager.Nsm_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.NationalSalesManager">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.dsQpiTerritory.QpiTerritory_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsQpiTerritory.QpiTerritory_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsQpiTerritory.QpiTerritory_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsQpiTerritory">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.Customers.CustomersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.Customers.CustomersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.Customers.CustomersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.Customers">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.SalesAndTargets_Direct.Show_SalesAndTargets_DirectDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.SalesAndTargets_Direct.Show_SalesAndTargets_Transfer_QtyDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.SalesAndTargets_Direct.Show_SalesAndTargets_Transfer_Qty1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.SalesAndTargets_Direct.Show_SalesAndTargets_DirectRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.SalesAndTargets_Direct.Show_SalesAndTargets_Transfer_QtyRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.SalesAndTargets_Direct.Show_SalesAndTargets_Transfer_Qty1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.SalesAndTargets_Direct.Show_SalesAndTargets_DirectRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.SalesAndTargets_Direct.Show_SalesAndTargets_Transfer_QtyRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.SalesAndTargets_Direct.Show_SalesAndTargets_Transfer_Qty1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.SalesAndTargets_Direct">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.SDDataSet.AppSettingsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.SDDataSet.NewCustomersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.SDDataSet.AppSettingsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.SDDataSet.NewCustomersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.SDDataSet.AppSettingsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.SDDataSet.NewCustomersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.SDDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.utDataSet.NewCustomersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.utDataSet.TerritoriesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.utDataSet.NewCustomersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.utDataSet.TerritoriesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.utDataSet.NewCustomersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.utDataSet.TerritoriesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.utDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.dsMercuryData.MercuryStatCountDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsMercuryData.MercItemDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsMercuryData.MercuryStatCountRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsMercuryData.MercItemRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsMercuryData.MercuryStatCountRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsMercuryData.MercItemRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsMercuryData">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.dsHiiMedrep.MedRepDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsHiiMedrep.MedRepRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsHiiMedrep.MedRepRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsHiiMedrep">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.dsHiiMrArea.MRAreaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsHiiMrArea.MRAreaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsHiiMrArea.MRAreaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsHiiMrArea">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.dsQpi_SalesSummary.Qpi_SalesSummaryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.dsQpi_SalesSummary.Qpi_SalesSummaryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.dsQpi_SalesSummary.Qpi_SalesSummaryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.dsQpi_SalesSummary">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.Budget.LineItemDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.Budget.BudgetDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.Budget.MedrepListDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.Budget.YearDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.Budget.LineItemRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.Budget.BudgetRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.Budget.MedrepListRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.Budget.YearRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.Budget.LineItemRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.Budget.BudgetRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.Budget.MedrepListRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.Budget.YearRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.Budget">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.SalesAndTargets_Transfer.Show_SalesAndTargets_TransferDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.SalesAndTargets_Transfer.Show_SalesAndTargets_Transfer_QtyDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.SalesAndTargets_Transfer.Show_SalesAndTargets_Transfer_Qty1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.SalesAndTargets_Transfer.Show_SalesAndTargets_TransferRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.SalesAndTargets_Transfer.Show_SalesAndTargets_Transfer_QtyRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.SalesAndTargets_Transfer.Show_SalesAndTargets_Transfer_Qty1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.SalesAndTargets_Transfer.Show_SalesAndTargets_TransferRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.SalesAndTargets_Transfer.Show_SalesAndTargets_Transfer_QtyRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.SalesAndTargets_Transfer.Show_SalesAndTargets_Transfer_Qty1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.SalesAndTargets_Transfer">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.CustomerType.CustomerTypeCT_ShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.CustomerType.CustomerTypeCT_ShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.CustomerType.CustomerTypeCT_ShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.CustomerType">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.sp_distributorbudgetdirect_validation_entryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.sp_distributorbudgetdirect_updateDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.sp_distributorbudgetdirect_deleteDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.sp_item_lagundex_listDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.sp_division_selections_lagundexDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.sp_v_dsm_comm2013DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.GetTerritoriesPerMedrepDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.report_salesperkasgovtDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.commission_computeattachment_kasgovtDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.Compute_ComIncAttachKASDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.Compute_ComIncKASDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.sp_area_pmr_end_dateDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.sp_area_brick_end_dateDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.sp_area_end_dateDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.sp_distributorbudgetdirect_validation_entryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.sp_distributorbudgetdirect_updateRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.sp_distributorbudgetdirect_deleteRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.sp_item_lagundex_listRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.sp_division_selections_lagundexRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.sp_v_dsm_comm2013Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.GetTerritoriesPerMedrepRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.report_salesperkasgovtRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.commission_computeattachment_kasgovtRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.Compute_ComIncAttachKASRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.Compute_ComIncKASRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.sp_area_pmr_end_dateRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.sp_area_brick_end_dateRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.sp_area_end_dateRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.sp_distributorbudgetdirect_validation_entryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.sp_distributorbudgetdirect_updateRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.sp_distributorbudgetdirect_deleteRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.sp_item_lagundex_listRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.sp_division_selections_lagundexRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.sp_v_dsm_comm2013RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.GetTerritoriesPerMedrepRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.report_salesperkasgovtRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.commission_computeattachment_kasgovtRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.Compute_ComIncAttachKASRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.Compute_ComIncKASRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.sp_area_pmr_end_dateRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.sp_area_brick_end_dateRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets.sp_area_end_dateRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MyDataSets">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.DSMCommission2013.dsm_commission_2013DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.DSMCommission2013.dsm_commission_2013Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.DSMCommission2013.dsm_commission_2013RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.DSMCommission2013">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ScoresDotNet.MBactive.MercBranchTmpTabDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ScoresDotNet.MBactive.MercBranchTmpTabRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ScoresDotNet.MBactive.MercBranchTmpTabRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ScoresDotNet.MBactive">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+</members>
+</doc>

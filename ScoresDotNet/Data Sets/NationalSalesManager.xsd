@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="NationalSalesManager" targetNamespace="http://tempuri.org/NationalSalesManager.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/NationalSalesManager.xsd"
+	xmlns:mstns="http://tempuri.org/NationalSalesManager.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="NationalSalesManager" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Nsm_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="NsmCode" type="xs:string" minOccurs="0" />
+							<xs:element name="NsmName" type="xs:string" minOccurs="0" />
+							<xs:element name="Hire_Date" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Resign_Date" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Email" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="MobileNo" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

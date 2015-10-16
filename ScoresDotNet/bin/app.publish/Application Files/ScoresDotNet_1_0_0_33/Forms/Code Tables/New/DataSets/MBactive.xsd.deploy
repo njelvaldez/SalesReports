@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="MBactive" targetNamespace="http://tempuri.org/MBactive.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/MBactive.xsd" xmlns:mstns="http://tempuri.org/MBactive.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="MBactive" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="MercBranchTmpTab">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="branchcode" type="xs:string" minOccurs="0" />
+							<xs:element name="branchname" type="xs:string" minOccurs="0" />
+							<xs:element name="_x005B_2007_x005D_" type="xs:string" minOccurs="0" />
+							<xs:element name="_x005B_2008_x005D_" type="xs:string" minOccurs="0" />
+							<xs:element name="_x005B_2009_x005D_" type="xs:string" minOccurs="0" />
+							<xs:element name="_x005B_2010_x005D_" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="dsYTDrecovery" targetNamespace="http://tempuri.org/dsYTDrecovery.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/dsYTDrecovery.xsd" xmlns:mstns="http://tempuri.org/dsYTDrecovery.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="dsYTDrecovery" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="YTDrecoveryTab">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="rowid" type="xs:integer" minOccurs="0" />
+							<xs:element name="division" type="xs:string" minOccurs="0" />
+							<xs:element name="supcode" type="xs:string" minOccurs="0" />
+							<xs:element name="supname" type="xs:string" minOccurs="0" />
+							<xs:element name="mrcode" type="xs:string" minOccurs="0" />
+							<xs:element name="mrname" type="xs:string" minOccurs="0" />
+							<xs:element name="commissiondate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="osales" type="xs:decimal" minOccurs="0" />
+							<xs:element name="otarget" type="xs:decimal" minOccurs="0" />
+							<xs:element name="csales" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ctarget" type="xs:decimal" minOccurs="0" />
+							<xs:element name="oper" type="xs:decimal" minOccurs="0" />
+							<xs:element name="cper" type="xs:decimal" minOccurs="0" />
+							<xs:element name="osalesr" type="xs:decimal" minOccurs="0" />
+							<xs:element name="otargetr" type="xs:decimal" minOccurs="0" />
+							<xs:element name="csalesr" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ctargetr" type="xs:decimal" minOccurs="0" />
+							<xs:element name="basinct" type="xs:decimal" minOccurs="0" />
+							<xs:element name="recinct" type="xs:decimal" minOccurs="0" />
+							<xs:element name="teamdivision" type="xs:string" minOccurs="0" />
+							<xs:element name="YTDflg" type="xs:string" minOccurs="0" />
+							<xs:element name="kpSales" type="xs:decimal" minOccurs="0" />
+							<xs:element name="kpTarget" type="xs:decimal" minOccurs="0" />
+							<xs:element name="skpSales" type="xs:decimal" minOccurs="0" />
+							<xs:element name="skpTarget" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ppSales" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ppTarget" type="xs:decimal" minOccurs="0" />
+							<xs:element name="kpSalesR" type="xs:decimal" minOccurs="0" />
+							<xs:element name="kpTargetR" type="xs:decimal" minOccurs="0" />
+							<xs:element name="skpSalesR" type="xs:decimal" minOccurs="0" />
+							<xs:element name="skpTargetR" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ppSalesR" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ppTargetR" type="xs:decimal" minOccurs="0" />
+							<xs:element name="kpPer" type="xs:decimal" minOccurs="0" />
+							<xs:element name="skpPer" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ppPer" type="xs:decimal" minOccurs="0" />
+							<xs:element name="kpBasInct" type="xs:decimal" minOccurs="0" />
+							<xs:element name="skpBasInct" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ppBasInct" type="xs:decimal" minOccurs="0" />
+							<xs:element name="kpRecInct" type="xs:decimal" minOccurs="0" />
+							<xs:element name="skpRecInct" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ppRecInct" type="xs:decimal" minOccurs="0" />
+							<xs:element name="kpYTDflg" type="xs:string" minOccurs="0" />
+							<xs:element name="skpYTDflg" type="xs:string" minOccurs="0" />
+							<xs:element name="ppYTDflg" type="xs:string" minOccurs="0" />
+							<xs:element name="CallRate" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CallTarget" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CallRateR" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CallTargetR" type="xs:decimal" minOccurs="0" />
+							<xs:element name="crPer" type="xs:decimal" minOccurs="0" />
+							<xs:element name="crBasInct" type="xs:decimal" minOccurs="0" />
+							<xs:element name="crRecInct" type="xs:decimal" minOccurs="0" />
+							<xs:element name="crYTDflg" type="xs:string" minOccurs="0" />
+							<xs:element name="LateTag" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="YTDrecoveryTabDSM">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="rowid" type="xs:integer" minOccurs="0" />
+							<xs:element name="division" type="xs:string" minOccurs="0" />
+							<xs:element name="supcode" type="xs:string" minOccurs="0" />
+							<xs:element name="supname" type="xs:string" minOccurs="0" />
+							<xs:element name="mrcode" type="xs:string" minOccurs="0" />
+							<xs:element name="mrname" type="xs:string" minOccurs="0" />
+							<xs:element name="commissiondate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="osales" type="xs:decimal" minOccurs="0" />
+							<xs:element name="otarget" type="xs:decimal" minOccurs="0" />
+							<xs:element name="csales" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ctarget" type="xs:decimal" minOccurs="0" />
+							<xs:element name="oper" type="xs:decimal" minOccurs="0" />
+							<xs:element name="cper" type="xs:decimal" minOccurs="0" />
+							<xs:element name="osalesr" type="xs:decimal" minOccurs="0" />
+							<xs:element name="otargetr" type="xs:decimal" minOccurs="0" />
+							<xs:element name="csalesr" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ctargetr" type="xs:decimal" minOccurs="0" />
+							<xs:element name="basinct" type="xs:decimal" minOccurs="0" />
+							<xs:element name="recinct" type="xs:decimal" minOccurs="0" />
+							<xs:element name="teamdivision" type="xs:string" minOccurs="0" />
+							<xs:element name="YTDflg" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

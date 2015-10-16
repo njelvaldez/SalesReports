@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="dsQpi_AreaAssign" targetNamespace="http://tempuri.org/dsQpi_AreaAssign.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/dsQpi_AreaAssign.xsd"
+	xmlns:mstns="http://tempuri.org/dsQpi_AreaAssign.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="dsQpi_AreaAssign" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="QpiAreaAssign_MedrepShow">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Medrep" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="MrCode" type="xs:string" />
+							<xs:element name="MrName" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="QpiAreaAssign_TerritoryShow">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="TerritoryDesc" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="QpiAreaAssign_TableShow">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="Medrep" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="Territory" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="StartDate" type="xs:dateTime" />
+							<xs:element name="EndDate" type="xs:dateTime" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="QpiAreaAssign_MedrepShow1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Medrep" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="MrCode" type="xs:string" />
+							<xs:element name="MrName" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="QpiAreaAssign_TerritoryShow1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="TerritoryDesc" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="dsQpi_AreaAssignKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:QpiAreaAssign_MedrepShow" />
+			<xs:field xpath="mstns:MrCode" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

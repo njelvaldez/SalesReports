@@ -1,0 +1,16 @@
+E:\Jojit Franco\Scores\Visual Studio 2008\Copy of MyDotNetProjectsTest\ScoresDotNet\Class Library\BusinessLayer\obj\Release\ResolveAssemblyReference.cache
+E:\Jojit Franco\Scores\Visual Studio 2008\Copy of MyDotNetProjectsTest\ScoresDotNet\Class Library\BusinessLayer\bin\BusinessLayer.dll
+E:\Jojit Franco\Scores\Visual Studio 2008\Copy of MyDotNetProjectsTest\ScoresDotNet\Class Library\BusinessLayer\bin\BusinessLayer.xml
+E:\Jojit Franco\Scores\Visual Studio 2008\Copy of MyDotNetProjectsTest\ScoresDotNet\Class Library\BusinessLayer\bin\DataAccessLayer.dll
+E:\Jojit Franco\Scores\Visual Studio 2008\Copy of MyDotNetProjectsTest\ScoresDotNet\Class Library\BusinessLayer\bin\DataAccessLayer.pdb
+E:\Jojit Franco\Scores\Visual Studio 2008\Copy of MyDotNetProjectsTest\ScoresDotNet\Class Library\BusinessLayer\bin\DataAccessLayer.xml
+E:\Jojit Franco\Scores\Visual Studio 2008\Copy of MyDotNetProjectsTest\ScoresDotNet\Class Library\BusinessLayer\obj\Release\BusinessLayer.dll
+E:\Jojit Franco\Scores\Visual Studio 2008\Copy of MyDotNetProjectsTest\ScoresDotNet\Class Library\BusinessLayer\obj\Release\BusinessLayer.xml
+E:\Jojit Franco\Scores\Visual Studio 2008\Merged Copy of MyDotNetProjectsTest\ScoresDotNet\Class Library\BusinessLayer\bin\BusinessLayer.dll
+E:\Jojit Franco\Scores\Visual Studio 2008\Merged Copy of MyDotNetProjectsTest\ScoresDotNet\Class Library\BusinessLayer\bin\BusinessLayer.xml
+E:\Jojit Franco\Scores\Visual Studio 2008\Merged Copy of MyDotNetProjectsTest\ScoresDotNet\Class Library\BusinessLayer\bin\DataAccessLayer.dll
+E:\Jojit Franco\Scores\Visual Studio 2008\Merged Copy of MyDotNetProjectsTest\ScoresDotNet\Class Library\BusinessLayer\bin\DataAccessLayer.pdb
+E:\Jojit Franco\Scores\Visual Studio 2008\Merged Copy of MyDotNetProjectsTest\ScoresDotNet\Class Library\BusinessLayer\bin\DataAccessLayer.xml
+E:\Jojit Franco\Scores\Visual Studio 2008\Merged Copy of MyDotNetProjectsTest\ScoresDotNet\Class Library\BusinessLayer\obj\Release\ResolveAssemblyReference.cache
+E:\Jojit Franco\Scores\Visual Studio 2008\Merged Copy of MyDotNetProjectsTest\ScoresDotNet\Class Library\BusinessLayer\obj\Release\BusinessLayer.dll
+E:\Jojit Franco\Scores\Visual Studio 2008\Merged Copy of MyDotNetProjectsTest\ScoresDotNet\Class Library\BusinessLayer\obj\Release\BusinessLayer.xml

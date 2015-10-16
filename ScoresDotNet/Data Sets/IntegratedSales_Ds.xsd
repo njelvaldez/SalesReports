@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="IntegratedSales_Ds" targetNamespace="http://tempuri.org/IntegratedSales_Ds.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/IntegratedSales_Ds.xsd"
+	xmlns:mstns="http://tempuri.org/IntegratedSales_Ds.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="IntegratedSales_Ds" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="IntegratedSales_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="customerdr" type="xs:decimal" minOccurs="0" />
+							<xs:element name="customercode" type="xs:string" minOccurs="0" />
+							<xs:element name="customername" type="xs:string" minOccurs="0" />
+							<xs:element name="address1" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="address2" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="territorydr" type="xs:decimal" minOccurs="0" />
+							<xs:element name="territory" type="xs:string" minOccurs="0" />
+							<xs:element name="provincedr" type="xs:decimal" minOccurs="0" />
+							<xs:element name="province" type="xs:string" minOccurs="0" />
+							<xs:element name="groupdr" type="xs:decimal" minOccurs="0" />
+							<xs:element name="group" type="xs:string" minOccurs="0" />
+							<xs:element name="CommissionDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="MrCode" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="MrName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="SupCode" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="SupName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="NsmCode" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="NsmName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="DivisionCode" type="xs:string" minOccurs="0" />
+							<xs:element name="DivisionDesc" type="xs:string" minOccurs="0" />
+							<xs:element name="PrincipalCode" type="xs:string" minOccurs="0" />
+							<xs:element name="PrincipalDesc" type="xs:string" minOccurs="0" />
+							<xs:element name="ItemCode" type="xs:string" minOccurs="0" />
+							<xs:element name="ItemDesc" type="xs:string" minOccurs="0" />
+							<xs:element name="RefCode" type="xs:string" minOccurs="0" />
+							<xs:element name="RefDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="QtySold" type="xs:long" minOccurs="0" />
+							<xs:element name="QtyFree" type="xs:long" minOccurs="0" />
+							<xs:element name="UnitPrice" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AmountSold" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CreditedAmount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="SalesClass" type="xs:string" minOccurs="0" />
+							<xs:element name="SaleType" type="xs:string" minOccurs="0" />
+							<xs:element name="SubSaleType" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="SubSubSaleType" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="OutOfStock" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="IntegratedSales_DsKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:IntegratedSales_Show" />
+			<xs:field xpath="mstns:rowid" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,3 @@
+The dependency 'Microsoft.Vbe.Interop' could not be found.
+
+C:\Program Files\Microsoft Visual Studio 10.0\Visual Studio Tools for Office\PIA\Office12

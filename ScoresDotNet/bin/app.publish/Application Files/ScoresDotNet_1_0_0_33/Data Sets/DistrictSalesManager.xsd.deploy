@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="DistrictSalesManager" targetNamespace="http://tempuri.org/DistrictSalesManager.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/DistrictSalesManager.xsd"
+	xmlns:mstns="http://tempuri.org/DistrictSalesManager.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="DistrictSalesManager" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Dsm_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="SupCode" type="xs:string" />
+							<xs:element name="SupName" type="xs:string" />
+							<xs:element name="Hire_Date" type="xs:dateTime" />
+							<xs:element name="Resign_Date" type="xs:dateTime" />
+							<xs:element name="Email" type="xs:string" minOccurs="0" />
+							<xs:element name="MobileNo" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Dsm_ShowPerDivision">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="SupCode" type="xs:string" />
+							<xs:element name="SupName" type="xs:string" />
+							<xs:element name="Hire_Date" type="xs:dateTime" />
+							<xs:element name="Resign_Date" type="xs:dateTime" />
+							<xs:element name="Email" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="MobileNo" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="DistrictSalesManagerKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Dsm_Show" />
+			<xs:field xpath="mstns:SupCode" />
+		</xs:unique>
+		<xs:unique name="DistrictSalesManagerKey2" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Dsm_ShowPerDivision" />
+			<xs:field xpath="mstns:SupCode" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

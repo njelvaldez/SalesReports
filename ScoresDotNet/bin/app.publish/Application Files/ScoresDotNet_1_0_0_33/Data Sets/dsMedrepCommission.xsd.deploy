@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="dsMedrepCommission" targetNamespace="http://tempuri.org/dsMedrepCommission.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/dsMedrepCommission.xsd"
+	xmlns:mstns="http://tempuri.org/dsMedrepCommission.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="dsMedrepCommission" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="REPORT_MedrepCommission">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="MrCode" type="xs:string" minOccurs="0" />
+							<xs:element name="Mrname" type="xs:string" minOccurs="0" />
+							<xs:element name="SupCode" type="xs:string" minOccurs="0" />
+							<xs:element name="SupName" type="xs:string" minOccurs="0" />
+							<xs:element name="OriginalTarget" type="xs:decimal" minOccurs="0" />
+							<xs:element name="OriginalSales" type="xs:decimal" minOccurs="0" />
+							<xs:element name="OriginalPerformance" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AdjustedTarget" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AdjustedSales" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AdjustedPerformance" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CommissionDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="MonthNum" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Cu_OriginalTarget" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Cu_OriginalSales" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Cu_OriginalPerformance" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Cu_AdjustedTarget" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Cu_AdjustedSales" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Cu_AdjustedPerformance" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Cu_BasicIncentive" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Cu_KeyProductIncentive" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Cu_TotalIncentive" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Cu_Monthnum" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ExcessSales" type="xs:decimal" minOccurs="0" />
+							<xs:element name="IncentiveShare" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RepCount" type="xs:int" minOccurs="0" />
+							<xs:element name="Period" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="oSales1" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="oSales2" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="oSales3" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="oTarget1" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="oTarget2" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="oTarget3" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Quarter" type="xs:int" minOccurs="0" />
+							<xs:element name="oRealization1" type="xs:decimal" minOccurs="0" />
+							<xs:element name="oRealization2" type="xs:decimal" minOccurs="0" />
+							<xs:element name="oRealization3" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BasicRecovery" type="xs:decimal" minOccurs="0" />
+							<xs:element name="QuadRecovery" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

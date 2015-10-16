@@ -1,0 +1,10 @@
+E:\Jojit Franco\Scores\Visual Studio 2008\Copy of MyDotNetProjectsTest\ScoresDotNet\Class Library\DataAccessLayer\bin\DataAccessLayer.dll
+E:\Jojit Franco\Scores\Visual Studio 2008\Copy of MyDotNetProjectsTest\ScoresDotNet\Class Library\DataAccessLayer\bin\DataAccessLayer.xml
+E:\Jojit Franco\Scores\Visual Studio 2008\Copy of MyDotNetProjectsTest\ScoresDotNet\Class Library\DataAccessLayer\obj\Release\ResolveAssemblyReference.cache
+E:\Jojit Franco\Scores\Visual Studio 2008\Copy of MyDotNetProjectsTest\ScoresDotNet\Class Library\DataAccessLayer\obj\Release\DataAccessLayer.dll
+E:\Jojit Franco\Scores\Visual Studio 2008\Copy of MyDotNetProjectsTest\ScoresDotNet\Class Library\DataAccessLayer\obj\Release\DataAccessLayer.xml
+E:\Jojit Franco\Scores\Visual Studio 2008\Merged Copy of MyDotNetProjectsTest\ScoresDotNet\Class Library\DataAccessLayer\bin\DataAccessLayer.dll
+E:\Jojit Franco\Scores\Visual Studio 2008\Merged Copy of MyDotNetProjectsTest\ScoresDotNet\Class Library\DataAccessLayer\bin\DataAccessLayer.xml
+E:\Jojit Franco\Scores\Visual Studio 2008\Merged Copy of MyDotNetProjectsTest\ScoresDotNet\Class Library\DataAccessLayer\obj\Release\ResolveAssemblyReference.cache
+E:\Jojit Franco\Scores\Visual Studio 2008\Merged Copy of MyDotNetProjectsTest\ScoresDotNet\Class Library\DataAccessLayer\obj\Release\DataAccessLayer.dll
+E:\Jojit Franco\Scores\Visual Studio 2008\Merged Copy of MyDotNetProjectsTest\ScoresDotNet\Class Library\DataAccessLayer\obj\Release\DataAccessLayer.xml

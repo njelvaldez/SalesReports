@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="Item" targetNamespace="http://tempuri.org/Item.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/Item.xsd" xmlns:mstns="http://tempuri.org/Item.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Item" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Item">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="ItemCode" type="xs:string" />
+							<xs:element name="ItemDesc" type="xs:string" />
+							<xs:element name="ItemUnit" type="xs:string" />
+							<xs:element name="UnitPrice" type="xs:decimal" />
+							<xs:element name="PrinCode" type="xs:string" />
+							<xs:element name="Create_Date" type="xs:dateTime" />
+							<xs:element name="Line" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Item_Browse">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ItemCode" type="xs:string" />
+							<xs:element name="ItemDesc" type="xs:string" />
+							<xs:element name="ItemUnit" type="xs:string" />
+							<xs:element name="UnitPrice" type="xs:decimal" />
+							<xs:element name="PrinCode" type="xs:string" />
+							<xs:element name="PrinName" type="xs:string" minOccurs="0" />
+							<xs:element name="DivCode" type="xs:string" minOccurs="0" />
+							<xs:element name="DivName" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="ItemKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Item" />
+			<xs:field xpath="mstns:ItemCode" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

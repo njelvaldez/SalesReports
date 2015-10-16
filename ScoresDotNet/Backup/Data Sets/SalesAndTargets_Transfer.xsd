@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="SalesAndTargets_Transfer" targetNamespace="http://tempuri.org/SalesAndTargets_Transfer.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/SalesAndTargets_Transfer.xsd"
+	xmlns:mstns="http://tempuri.org/SalesAndTargets_Transfer.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="SalesAndTargets_Transfer" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Show_SalesAndTargets_Transfer">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ForCommissionDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="CommissionDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="ItemCode" type="xs:string" minOccurs="0" />
+							<xs:element name="ItemDesc" type="xs:string" minOccurs="0" />
+							<xs:element name="Division" type="xs:string" minOccurs="0" />
+							<xs:element name="Principal" type="xs:string" minOccurs="0" />
+							<xs:element name="Line" type="xs:string" minOccurs="0" />
+							<xs:element name="MrCode" type="xs:string" minOccurs="0" />
+							<xs:element name="MrName" type="xs:string" minOccurs="0" />
+							<xs:element name="DsmCode" type="xs:string" minOccurs="0" />
+							<xs:element name="DsmName" type="xs:string" minOccurs="0" />
+							<xs:element name="OutOfStock" type="xs:int" minOccurs="0" />
+							<xs:element name="oTargetAmt" type="xs:decimal" minOccurs="0" />
+							<xs:element name="oMdiSales" type="xs:decimal" minOccurs="0" />
+							<xs:element name="oMerSales" type="xs:decimal" minOccurs="0" />
+							<xs:element name="cmlyOriginalTargetAmt" type="xs:decimal" minOccurs="0" />
+							<xs:element name="cmlyOriginalSales" type="xs:decimal" minOccurs="0" />
+							<xs:element name="aTargetAmt" type="xs:decimal" minOccurs="0" />
+							<xs:element name="aMdiSales" type="xs:decimal" minOccurs="0" />
+							<xs:element name="aMerSales" type="xs:decimal" minOccurs="0" />
+							<xs:element name="cmlyAdjustedTargetAmt" type="xs:decimal" minOccurs="0" />
+							<xs:element name="cmlyAdjustedSales" type="xs:decimal" minOccurs="0" />
+							<xs:element name="oytdTargetAmt" type="xs:decimal" minOccurs="0" />
+							<xs:element name="oytdMdiSales" type="xs:decimal" minOccurs="0" />
+							<xs:element name="oytdMerSales" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ytdlyOriginalTargetAmt" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ytdlyOriginalSales" type="xs:decimal" minOccurs="0" />
+							<xs:element name="aytdTargetAmt" type="xs:decimal" minOccurs="0" />
+							<xs:element name="aytdMdiSales" type="xs:decimal" minOccurs="0" />
+							<xs:element name="aytdMerSales" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ytdlyAdustedTargetAmt" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ytdlyAdjustedSales" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Show_SalesAndTargets_Transfer_Qty">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ForCommissionDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="CommissionDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="ItemCode" type="xs:string" minOccurs="0" />
+							<xs:element name="ItemDesc" type="xs:string" minOccurs="0" />
+							<xs:element name="Division" type="xs:string" minOccurs="0" />
+							<xs:element name="Principal" type="xs:string" minOccurs="0" />
+							<xs:element name="Line" type="xs:string" minOccurs="0" />
+							<xs:element name="MrCode" type="xs:string" minOccurs="0" />
+							<xs:element name="MrName" type="xs:string" minOccurs="0" />
+							<xs:element name="DsmCode" type="xs:string" minOccurs="0" />
+							<xs:element name="DsmName" type="xs:string" minOccurs="0" />
+							<xs:element name="OutOfStock" type="xs:int" minOccurs="0" />
+							<xs:element name="oTargetQty" type="xs:int" minOccurs="0" />
+							<xs:element name="oMdiQty" type="xs:int" minOccurs="0" />
+							<xs:element name="oMdiQtyFree" type="xs:int" minOccurs="0" />
+							<xs:element name="oMerQty" type="xs:int" minOccurs="0" />
+							<xs:element name="cmlyOriginalTargetQty" type="xs:int" minOccurs="0" />
+							<xs:element name="cmlyOriginalQty" type="xs:int" minOccurs="0" />
+							<xs:element name="cmlyOriginalQtyFree" type="xs:int" minOccurs="0" />
+							<xs:element name="oytdTargetQty" type="xs:int" minOccurs="0" />
+							<xs:element name="oytdMdiQty" type="xs:int" minOccurs="0" />
+							<xs:element name="oytdMdiQtyFree" type="xs:int" minOccurs="0" />
+							<xs:element name="oytdMerQty" type="xs:int" minOccurs="0" />
+							<xs:element name="ytdlyOriginalTargetQty" type="xs:int" minOccurs="0" />
+							<xs:element name="ytdlyOriginalQty" type="xs:int" minOccurs="0" />
+							<xs:element name="ytdlyOriginalQtyFree" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Show_SalesAndTargets_Transfer_Qty1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ForCommissionDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="CommissionDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="ItemCode" type="xs:string" minOccurs="0" />
+							<xs:element name="ItemDesc" type="xs:string" minOccurs="0" />
+							<xs:element name="Division" type="xs:string" minOccurs="0" />
+							<xs:element name="Principal" type="xs:string" minOccurs="0" />
+							<xs:element name="Line" type="xs:string" minOccurs="0" />
+							<xs:element name="MrCode" type="xs:string" minOccurs="0" />
+							<xs:element name="MrName" type="xs:string" minOccurs="0" />
+							<xs:element name="DsmCode" type="xs:string" minOccurs="0" />
+							<xs:element name="DsmName" type="xs:string" minOccurs="0" />
+							<xs:element name="OutOfStock" type="xs:int" minOccurs="0" />
+							<xs:element name="aTargetQty" type="xs:int" minOccurs="0" />
+							<xs:element name="aMdiQty" type="xs:int" minOccurs="0" />
+							<xs:element name="aMdiQtyFree" type="xs:int" minOccurs="0" />
+							<xs:element name="aMerQty" type="xs:int" minOccurs="0" />
+							<xs:element name="cmlyAdjustedTargetQty" type="xs:int" minOccurs="0" />
+							<xs:element name="cmlyAdjustedQty" type="xs:int" minOccurs="0" />
+							<xs:element name="cmlyAdjustedQtyFree" type="xs:int" minOccurs="0" />
+							<xs:element name="aytdTargetQty" type="xs:int" minOccurs="0" />
+							<xs:element name="aytdMdiQty" type="xs:int" minOccurs="0" />
+							<xs:element name="aytdMdiQtyFree" type="xs:int" minOccurs="0" />
+							<xs:element name="aytdMerQty" type="xs:int" minOccurs="0" />
+							<xs:element name="ytdlyAdjustedTargetQty" type="xs:int" minOccurs="0" />
+							<xs:element name="ytdlyAdjustedQty" type="xs:int" minOccurs="0" />
+							<xs:element name="ytdlyAdjustedQtyFree" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="dsMedrepBudgetList" targetNamespace="http://tempuri.org/dsMedrepBudgetList.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/dsMedrepBudgetList.xsd"
+	xmlns:mstns="http://tempuri.org/dsMedrepBudgetList.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="dsMedrepBudgetList" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="MedRepBudgetList">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="MRCode" type="xs:string" />
+							<xs:element name="MrName" type="xs:string" minOccurs="0" />
+							<xs:element name="Jan" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Feb" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Mar" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Apr" type="xs:decimal" minOccurs="0" />
+							<xs:element name="May" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Jun" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Jul" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Aug" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Sep" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Oct" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Nov" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Dec" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="MedRepBudgetAmounts">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ItemCode" minOccurs="0" type="xs:string" />
+							<xs:element name="ItemDesc" type="xs:string" minOccurs="0" />
+							<xs:element name="Amount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Qty" type="xs:int" minOccurs="0" />
+							<xs:element name="Start_Date" type="xs:date" minOccurs="0" />
+							<xs:element name="End_Date" type="xs:date" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="dsMedrepBudgetListKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:MedRepBudgetList" />
+			<xs:field xpath="mstns:MRCode" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

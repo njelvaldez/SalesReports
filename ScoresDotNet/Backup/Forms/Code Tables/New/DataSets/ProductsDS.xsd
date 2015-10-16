@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ProductsDS" targetNamespace="http://tempuri.org/ProductsDS.xsd" elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/ProductsDS.xsd" xmlns:mstns="http://tempuri.org/ProductsDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="ProductsDS" msdata:IsDataSet="true">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element name="KeyProducts4th_Show">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+                            <xs:element name="TeamDivision" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+                            <xs:element name="Line" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+                            <xs:element name="PushProductsDesc" type="xs:string" minOccurs="0" />
+                            <xs:element name="Start_Date" type="xs:dateTime" />
+                            <xs:element name="End_Date" type="xs:dateTime" />
+                            <xs:element name="CreateDate" type="xs:dateTime" />
+                            <xs:element name="UpdateDate" type="xs:dateTime" />
+                            <xs:element name="UserId" type="xs:string" minOccurs="0" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="KeyProducts5th_Show">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+                            <xs:element name="TeamDivision" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+                            <xs:element name="Line" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+                            <xs:element name="PushProductsDesc" type="xs:string" minOccurs="0" />
+                            <xs:element name="Start_Date" type="xs:dateTime" />
+                            <xs:element name="End_Date" type="xs:dateTime" />
+                            <xs:element name="CreateDate" type="xs:dateTime" />
+                            <xs:element name="UpdateDate" type="xs:dateTime" />
+                            <xs:element name="UserId" type="xs:string" minOccurs="0" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

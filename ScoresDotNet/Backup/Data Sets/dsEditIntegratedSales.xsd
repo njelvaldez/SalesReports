@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="dsEditIntegratedSales" targetNamespace="http://tempuri.org/dsEditIntegratedSales.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/dsEditIntegratedSales.xsd"
+	xmlns:mstns="http://tempuri.org/dsEditIntegratedSales.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="dsEditIntegratedSales" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Territory">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="TerritoryCode" type="xs:string" minOccurs="0" />
+							<xs:element name="Prov_Nav" type="xs:string" minOccurs="0" />
+							<xs:element name="Territory" type="xs:string" minOccurs="0" />
+							<xs:element name="GroupDr" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AreaDr" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ProvinceDr" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TerritoryGroupDr" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Group" type="xs:string" minOccurs="0" />
+							<xs:element name="Province" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Province">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="PRO_CODE" type="xs:string" minOccurs="0" />
+							<xs:element name="PROVINCE" type="xs:string" minOccurs="0" />
+							<xs:element name="REGION" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Group">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="Code" type="xs:string" minOccurs="0" />
+							<xs:element name="Group" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="MedRep">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="MRCode" type="xs:string" />
+							<xs:element name="MRName" type="xs:string" />
+							<xs:element name="Hire_Date" type="xs:dateTime" />
+							<xs:element name="Resign_Date" type="xs:dateTime" />
+							<xs:element name="Create_Date" type="xs:dateTime" />
+							<xs:element name="Type" type="xs:int" />
+							<xs:element name="Territories" type="xs:string" minOccurs="0" />
+							<xs:element name="Exclusive" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Supervisor">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="SupCode" type="xs:string" />
+							<xs:element name="SupName" type="xs:string" />
+							<xs:element name="Hire_Date" type="xs:dateTime" />
+							<xs:element name="Resign_Date" type="xs:dateTime" />
+							<xs:element name="Create_Date" type="xs:dateTime" />
+							<xs:element name="Exclusive" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Division">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="DivCode" type="xs:string" />
+							<xs:element name="DivName" type="xs:string" />
+							<xs:element name="Manager" type="xs:string" minOccurs="0" />
+							<xs:element name="Create_Date" type="xs:dateTime" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Principal">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PrinCode" type="xs:string" />
+							<xs:element name="PrinName" type="xs:string" />
+							<xs:element name="DivCode" type="xs:string" />
+							<xs:element name="Create_Date" type="xs:dateTime" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ControlTotals">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="CommissionDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="SalesClass" type="xs:string" minOccurs="0" />
+							<xs:element name="SaleType" type="xs:string" minOccurs="0" />
+							<xs:element name="SubSaleType" type="xs:string" minOccurs="0" />
+							<xs:element name="SubSubSaleType" type="xs:string" minOccurs="0" />
+							<xs:element name="Records" type="xs:decimal" minOccurs="0" />
+							<xs:element name="SaleAmount" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="dsEditIntegratedSalesKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Territory" />
+			<xs:field xpath="mstns:Rowid" />
+		</xs:unique>
+		<xs:unique name="dsEditIntegratedSalesKey2" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Province" />
+			<xs:field xpath="mstns:Rowid" />
+		</xs:unique>
+		<xs:unique name="dsEditIntegratedSalesKey3" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Group" />
+			<xs:field xpath="mstns:Rowid" />
+		</xs:unique>
+		<xs:unique name="dsEditIntegratedSalesKey4" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:MedRep" />
+			<xs:field xpath="mstns:MRCode" />
+		</xs:unique>
+		<xs:unique name="dsEditIntegratedSalesKey5" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Supervisor" />
+			<xs:field xpath="mstns:SupCode" />
+		</xs:unique>
+		<xs:unique name="dsEditIntegratedSalesKey6" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Division" />
+			<xs:field xpath="mstns:DivCode" />
+		</xs:unique>
+		<xs:unique name="dsEditIntegratedSalesKey7" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Principal" />
+			<xs:field xpath="mstns:PrinCode" />
+		</xs:unique>
+		<xs:unique name="dsEditIntegratedSalesKey8" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:ControlTotals" />
+			<xs:field xpath="mstns:Rowid" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

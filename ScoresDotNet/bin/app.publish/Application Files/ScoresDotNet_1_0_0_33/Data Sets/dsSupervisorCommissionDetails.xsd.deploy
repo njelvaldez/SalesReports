@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="dsSupervisorCommissionDetails" targetNamespace="http://tempuri.org/dsSupervisorCommissionDetails.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/dsSupervisorCommissionDetails.xsd"
+	xmlns:mstns="http://tempuri.org/dsSupervisorCommissionDetails.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="dsSupervisorCommissionDetails" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="SupervisorCommissionDetails">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="supcode" type="xs:string" minOccurs="0" />
+							<xs:element name="mrcode" type="xs:string" minOccurs="0" />
+							<xs:element name="mrname" type="xs:string" minOccurs="0" />
+							<xs:element name="StartDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="oSales1" type="xs:decimal" minOccurs="0" />
+							<xs:element name="oSales2" type="xs:decimal" minOccurs="0" />
+							<xs:element name="oSales3" type="xs:decimal" minOccurs="0" />
+							<xs:element name="oTarget1" type="xs:decimal" minOccurs="0" />
+							<xs:element name="oTarget2" type="xs:decimal" minOccurs="0" />
+							<xs:element name="oTarget3" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

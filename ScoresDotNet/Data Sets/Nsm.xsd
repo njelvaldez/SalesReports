@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="Nsm" targetNamespace="http://tempuri.org/Nsm.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/Nsm.xsd" xmlns:mstns="http://tempuri.org/Nsm.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Nsm" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Nsm_Browse">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nsmcode" type="xs:string" minOccurs="0" />
+							<xs:element name="nsmname" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="CtSales_Show">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Division" type="xs:string" minOccurs="0" />
+							<xs:element name="DsmCode" type="xs:string" minOccurs="0" />
+							<xs:element name="DsmName" type="xs:string" minOccurs="0" />
+							<xs:element name="MrCode" type="xs:string" minOccurs="0" />
+							<xs:element name="MrName" type="xs:string" minOccurs="0" />
+							<xs:element name="ItemCode" type="xs:string" minOccurs="0" />
+							<xs:element name="ItemDesc" type="xs:string" minOccurs="0" />
+							<xs:element name="TargetQty" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="TargetAmt" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="DrugSales" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="DrugQty" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="DrugFree" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="GovSales" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="GovQty" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="GovFree" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="MdSales" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="MdQty" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="MdFree" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="MerSales" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="MerQty" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="MerFree" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="OtherSales" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="OtherQty" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="OtherFree" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="DrugSalesYtd" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="DrugQtyYtd" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="DrugFreeYtd" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="GovSalesYtd" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="GovQtyYtd" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="GovFreeYtd" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="MdSalesYtd" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="MdQtyYtd" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="MdFreeYtd" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="MerSalesYtd" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="MerQtyYtd" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="MerFreeYtd" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="OtherSalesYtd" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="OtherQtyYtd" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="OtherFreeYtd" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

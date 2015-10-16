@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ScoresDotNet">
+</Property><Property Name="Solution File" Value="E:\Jojit Franco\Scores\Visual Studio 2008\Copy of MyDotNetProjectsTest\ScoresDotNet\ScoresDotNet.sln">
+</Property><Property Name="Date" Value="Wednesday, January 22, 2014">
+</Property><Property Name="Time" Value="14:35 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="ScoresDotNet" Source="ScoresDotNet.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="ScoresDotNet.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ScoresDotNet.sln" Description="The solution file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="" Source="ScoresDotNet.sln" Description="No Conversion Required">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\AfromComincRecover2009.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\AfromComincRecover2009.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\Budget1.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\Budget1.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\BudgetDirect_Show.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\BudgetDirect_Show.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\BudgetMTD.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\BudgetMTD.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\ComIncRecover2008.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\ComIncRecover2008.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\ComincRecover2009.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\ComincRecover2009.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\Customer.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\Customer.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\DistrictSalesManager.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\DistrictSalesManager.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\dsComIncRecover.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\dsComIncRecover.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\dsCommissionAttachment.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\dsCommissionAttachment.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\dsCustomers.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\dsCustomers.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\dsEditIntegratedSales.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\dsEditIntegratedSales.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\dsHiiMedrep.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\dsHiiMedrep.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\dsHiiMrArea.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\dsHiiMrArea.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\dsHiiSupervisor.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\dsHiiSupervisor.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\Dsm.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\Dsm.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\DSMCommission2008.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\DSMCommission2008.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\DSMCommission2009.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\DSMCommission2009.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\DSMCommission2013.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\DSMCommission2013.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\dsMdiSalesPerMedrep.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\dsMdiSalesPerMedrep.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\dsMedrepBudgetList.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\dsMedrepBudgetList.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\dsMedrepCommission.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\dsMedrepCommission.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\dsMercurySales.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\dsMercurySales.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\dsSupervisorCommission.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\dsSupervisorCommission.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\dsSupervisorCommissionDetails.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\dsSupervisorCommissionDetails.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\dsYTDrecovery.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\dsYTDrecovery.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\IntegratedSales_Ds.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\IntegratedSales_Ds.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\IntegratesSalesDS.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\IntegratesSalesDS.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\Item.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\Item.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\jpa_Performance_Current.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\jpa_Performance_Current.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\Medrep.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\Medrep.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\MedrepList.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\MedrepList.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\NationalSalesManager.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\NationalSalesManager.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\Nsm.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\Nsm.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\Performance.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\Performance.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\SalesAndTargets_Direct.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\SalesAndTargets_Direct.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\SalesAndTargets_Transfer.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\SalesAndTargets_Transfer.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\SalesCategory.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\SalesCategory.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\SDDataSet.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\SDDataSet.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\SupervisorList.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\SupervisorList.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\Territory.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\Territory.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Data Sets\utDataSet.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Data Sets\utDataSet.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Forms\Code Tables\New\DataSets\CodeTablesDS.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Forms\Code Tables\New\DataSets\CodeTablesDS.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Forms\Code Tables\New\DataSets\CustomerType.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Forms\Code Tables\New\DataSets\CustomerType.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Forms\Code Tables\New\DataSets\dsOrg.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Forms\Code Tables\New\DataSets\dsOrg.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Forms\Code Tables\New\DataSets\MBactive.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Forms\Code Tables\New\DataSets\MBactive.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Forms\Code Tables\New\DataSets\MyDataSetDB.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Forms\Code Tables\New\DataSets\MyDataSetDB.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Forms\Code Tables\New\DataSets\MyDataSets.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Forms\Code Tables\New\DataSets\MyDataSets.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Forms\Code Tables\New\DataSets\ProductsDS.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Forms\Code Tables\New\DataSets\ProductsDS.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Forms\Code Tables\Qpi\DataSets\dsQpi_AreaAssign.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Forms\Code Tables\Qpi\DataSets\dsQpi_AreaAssign.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Forms\Code Tables\Qpi\DataSets\dsQpi_SalesSummary.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Forms\Code Tables\Qpi\DataSets\dsQpi_SalesSummary.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Forms\Code Tables\Qpi\DataSets\dsQpiTerritory.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="ScoresDotNet" Source="Forms\Code Tables\Qpi\DataSets\dsQpiTerritory.vb" Description="Not Converted">
+</Event><Event ErrorLevel="0" Project="ScoresDotNet" Source="ScoresDotNet.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="1" Project="ScoresDotNet" Source="Crystal Reports" Description="">
+</Event><Event ErrorLevel="0" Project="Scores.Net.vdproj" Source="..\Scores.Net\Scores.Net.vdproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Scores.Net.vdproj" Source="..\Scores.Net\Scores.Net.vdproj" Description="Converted">
+</Event></UpgradeLog>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="Dsm" targetNamespace="http://tempuri.org/Dsm.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/Dsm.xsd" xmlns:mstns="http://tempuri.org/Dsm.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Dsm" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Dsm_Browse">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="supcode" type="xs:string" />
+							<xs:element name="supname" type="xs:string" />
+							<xs:element name="Resign_Date" type="xs:dateTime" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="DsmKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Dsm_Browse" />
+			<xs:field xpath="mstns:supcode" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

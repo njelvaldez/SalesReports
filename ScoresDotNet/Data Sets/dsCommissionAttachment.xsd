@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="dsCommissionAttachment" targetNamespace="http://tempuri.org/dsCommissionAttachment.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/dsCommissionAttachment.xsd"
+	xmlns:mstns="http://tempuri.org/dsCommissionAttachment.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="dsCommissionAttachment" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="REPORT_CommissionAttachment">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="SupCode" type="xs:string" minOccurs="0" />
+							<xs:element name="SupName" type="xs:string" minOccurs="0" />
+							<xs:element name="MrCode" type="xs:string" minOccurs="0" />
+							<xs:element name="MrName" type="xs:string" minOccurs="0" />
+							<xs:element name="ItemCode" type="xs:string" minOccurs="0" />
+							<xs:element name="ItemDesc" type="xs:string" minOccurs="0" />
+							<xs:element name="SalesQty" type="xs:int" minOccurs="0" />
+							<xs:element name="SalesAmount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TargetQty" type="xs:int" minOccurs="0" />
+							<xs:element name="TargetAmount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Os" type="xs:int" minOccurs="0" />
+							<xs:element name="SalesType" type="xs:string" minOccurs="0" />
+							<xs:element name="StartDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Period" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="division" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="REPORT_CommissionAttachment2009">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="SupCode" type="xs:string" minOccurs="0" />
+							<xs:element name="SupName" type="xs:string" minOccurs="0" />
+							<xs:element name="MrCode" type="xs:string" minOccurs="0" />
+							<xs:element name="MrName" type="xs:string" minOccurs="0" />
+							<xs:element name="ItemCode" type="xs:string" minOccurs="0" />
+							<xs:element name="ItemDesc" type="xs:string" minOccurs="0" />
+							<xs:element name="SalesQty" type="xs:int" minOccurs="0" />
+							<xs:element name="SalesAmount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TargetQty" type="xs:int" minOccurs="0" />
+							<xs:element name="TargetAmount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Os" type="xs:int" minOccurs="0" />
+							<xs:element name="SalesType" type="xs:string" minOccurs="0" />
+							<xs:element name="StartDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Period" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="division" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="REPORT_CommissionAttachment2009Chiral">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="SupCode" type="xs:string" minOccurs="0" />
+							<xs:element name="SupName" type="xs:string" minOccurs="0" />
+							<xs:element name="MrCode" type="xs:string" minOccurs="0" />
+							<xs:element name="MrName" type="xs:string" minOccurs="0" />
+							<xs:element name="ItemCode" type="xs:string" minOccurs="0" />
+							<xs:element name="ItemDesc" type="xs:string" minOccurs="0" />
+							<xs:element name="SalesQty" type="xs:int" minOccurs="0" />
+							<xs:element name="SalesAmount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TargetQty" type="xs:int" minOccurs="0" />
+							<xs:element name="TargetAmount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Os" type="xs:int" minOccurs="0" />
+							<xs:element name="SalesType" type="xs:string" minOccurs="0" />
+							<xs:element name="StartDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Period" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="REPORT_CommissionAttachment2008Chiral">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Rowid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="SupCode" type="xs:string" minOccurs="0" />
+							<xs:element name="SupName" type="xs:string" minOccurs="0" />
+							<xs:element name="MrCode" type="xs:string" minOccurs="0" />
+							<xs:element name="MrName" type="xs:string" minOccurs="0" />
+							<xs:element name="ItemCode" type="xs:string" minOccurs="0" />
+							<xs:element name="ItemDesc" type="xs:string" minOccurs="0" />
+							<xs:element name="SalesQty" type="xs:int" minOccurs="0" />
+							<xs:element name="SalesAmount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TargetQty" type="xs:int" minOccurs="0" />
+							<xs:element name="TargetAmount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Os" type="xs:int" minOccurs="0" />
+							<xs:element name="SalesType" type="xs:string" minOccurs="0" />
+							<xs:element name="StartDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Period" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="dsCommissionAttachmentKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:REPORT_CommissionAttachment" />
+			<xs:field xpath="mstns:Rowid" />
+		</xs:unique>
+		<xs:key name="dsCommissionAttachmentKey2">
+			<xs:selector xpath=".//mstns:REPORT_CommissionAttachment2009" />
+			<xs:field xpath="mstns:Rowid" />
+		</xs:key>
+	</xs:element>
+</xs:schema>
